@@ -1,0 +1,249 @@
+/* Gradient background only for navbar */
+.navbar {
+  color: white;
+  background: linear-gradient(90deg, #ff512f, #f09819);
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Menu items */
+.navbar-nav .nav-link {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Menu hover effect */
+.navbar-nav .nav-link:hover {
+  color: white;
+}
+
+/* Dynamic year styling */
+.dynamic-years a {
+  text-decoration: none;
+  font-size: 58px;
+  font-weight: 900;
+  color: white;
+  font-family: More Suger, cursive;
+  margin-right: 10px;
+}
+
+ .yrs {
+  font-family: "Bimbo", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  /* White color icon */
+}
+
+/* Custom container for menu */
+.container-fluid {
+  justify-content: space-between;
+  width: 95%;
+}
+/* Ensure all images fit uniformly */
+.carousel-item img {
+  width: 100%;
+  height: 100vh; /* Ensuring all images take full screen height */
+  object-fit: cover; /* Ensures the image covers the whole area */
+}
+
+/* Uniform section padding and layout */
+.hero-section {
+  min-height: 100vh; /* Ensures each hero section has the same height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  padding: 30px;
+  max-width: 90%; /* Ensures content does not exceed bounds */
+}
+
+.textpara {
+  margin-left: 30px;
+  width: 100%; /* Set width to 100% to avoid overflow */
+}
+
+.hero-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.highlight {
+  color: #8c0d17;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.future-control-title {
+  font-size: 45px;
+  font-weight: 600;
+}
+.student_numbers {
+  font-weight: 700;
+  font-size: 80px;
+}
+.stat-item {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.student-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid;
+  border-image: linear-gradient(45deg, #ff5722, #ffc107) 1;
+  cursor: pointer;
+}
+
+.featured-img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border: 2px solid;
+  padding: 2px;
+  border-image: linear-gradient(45deg, #ff5722, #ffc107) 1;
+}
+
+.linkedin-icon {
+  width: 80px;
+  height: 80px;
+}
+
+.feature-story {
+  background-color: #ff9800;
+  padding: 15px;
+  font-weight: bold;
+  font-size: 1rem;
+
+margin-bottom: 30px;}
+
+.student-list {
+  margin-top: 20px;
+}
+
+.student-card {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.selected {
+  border: 2px solid #ff5722 !important;
+}
+
+.student-details {
+  font-weight: bold;
+  margin-bottom: 80px;
+
+}
+/* Added a fix to ensure images scale properly on smaller screens */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+}
+.mission-title {
+  color: red;
+  font-weight: 500;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.mission-text {
+  font-size: 28px;
+  color: #504d4d;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+.mission-text span {
+  color: red;
+}
+
+/* Program Cards */
+.program-card {
+  border: 2px dotted black;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.program-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.program-image {
+  width: 100%;
+  /* height: auto; */
+  object-fit: cover;
+}
+
+.program-content {
+  padding: 15px;
+}
+
+.program-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.program-duration {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Button styles */
+.program-button {
+  background-color: #ff9900;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
+  font-size: 16px;
+}
+
+.program-button:hover {
+  background-color: #ff7700;
+  color: #000;
+}
+
+/* Responsive adjustments */
+@media (min-width: 768px) {
+  .mission-text {
+    font-size: 28px;
+  }
+
+  .program-title {
+    font-size: 28px;
+  }
+}
