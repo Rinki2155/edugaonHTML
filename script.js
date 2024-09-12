@@ -5,15 +5,64 @@ const yearsActive = currentYear - startYear;
 document.getElementById("yearsCount").innerText = yearsActive;
 
 // Update the feature section with selected student data
+let students = [];
+let startIndex = 0;
+const fetchStudentData = async () => {
+  try {
+    const response = await fetch("students.json");
+    students = await response.json();
+    initializeCarousel();
+    updateMainStory(students[0]);
+  } catch (error) {
+    console.error("Error fetching student data:", error);
+  }
+};
 
-function selectStudent(imgSrc, name, details, linkedinUrl) {
-  document.getElementById("featureImage").src = `Images/${imgSrc}`;
-  document.getElementById("studentName").textContent = name;
-  document.getElementById("studentDetails").textContent = details;
-  document.getElementById("linkedinProfile").href = linkedinUrl;
+// Update the main featured story
+const updateMainStory = (student) => {
+  document.getElementById("mainImage").src = student.image;
+  document.getElementById("studentName").textContent = student.name;
+  document.getElementById("studentCompany").textContent = student.company;
+  document.getElementById("studentLinkedin").href = student.linkedin;
+};
 
-  // Highlight the selected image
-  const allImages = document.querySelectorAll(".student-img");
-  allImages.forEach((img) => img.classList.remove("selected"));
-  event.target.classList.add("selected");
-}
+// Initialize the carousel
+const initializeCarousel = () => {
+  const thumbnails = document.getElementById("thumbnails");
+  thumbnails.innerHTML = "";
+  const slice = students.slice(startIndex, startIndex + 7);
+
+  slice.forEach((student) => {
+    const thumbnail = document.createElement("img");
+    thumbnail.src = student.image;
+    thumbnail.alt = student.name;
+    thumbnail.classList.add("thumbnail-img", "me-2");
+    thumbnail.addEventListener("click", () => updateMainStory(student));
+    thumbnails.appendChild(thumbnail);
+  });
+};
+
+// Show previous students in the carousel
+const showPrevious = () => {
+  if (startIndex > 0) {
+    startIndex--;
+    initializeCarousel();
+  }
+};
+
+// Show next students in the carousel
+const showNext = () => {
+  if (startIndex + 5 < students.length) {
+    startIndex++;
+    initializeCarousel();
+  }
+};
+
+// Event listeners for next and previous buttons
+document.getElementById("prevBtn").addEventListener("click", showPrevious);
+document.getElementById("nextBtn").addEventListener("click", showNext);
+
+// Fetch data and initialize on page load
+window.onload = () => {
+  fetchStudentData();
+};

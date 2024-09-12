@@ -1,3 +1,8 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
 /* Gradient background only for navbar */
 .navbar {
   color: white;
@@ -19,34 +24,6 @@
   transition: color 0.3s ease;
 }
 
-/* Menu hover effect */
-.navbar-nav .nav-link:hover {
-  color: white;
-}
-
-/* Dynamic year styling */
-.dynamic-years a {
-  text-decoration: none;
-  font-size: 58px;
-  font-weight: 900;
-  color: white;
-  font-family: More Suger, cursive;
-  margin-right: 10px;
-}
-
- .yrs {
-  font-family: "Bimbo", cursive;
-  font-size: 20px;
-  color: black;
-  font-weight: normal;
-  vertical-align: super;
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  /* White color icon */
-}
-
 /* Custom container for menu */
 .container-fluid {
   justify-content: space-between;
@@ -61,7 +38,6 @@
 
 /* Uniform section padding and layout */
 .hero-section {
-  min-height: 100vh; /* Ensures each hero section has the same height */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,71 +82,46 @@
   text-transform: uppercase;
   font-weight: 600;
 }
-
-.student-img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border: 2px solid;
-  border-image: linear-gradient(45deg, #ff5722, #ffc107) 1;
-  cursor: pointer;
+/* Menu hover effect */
+.navbar-nav .nav-link:hover {
+  color: white;
 }
 
-.featured-img {
-  width: 350px;
-  height: 350px;
+/* Dynamic year styling */
+.dynamic-years a {
+  text-decoration: none;
+  font-size: 58px;
+  font-weight: 900;
+  color: white;
+  font-family: More Suger, cursive;
+  margin-right: 10px;
+}
+
+.yrs {
+  font-family: "Bimbo", cursive;
+  font-size: 20px;
+  color: black;
+  font-weight: normal;
+  vertical-align: super;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.hero-image {
+  max-height: 800px;
   object-fit: cover;
-  border: 2px solid;
-  padding: 2px;
-  border-image: linear-gradient(45deg, #ff5722, #ffc107) 1;
 }
 
 .linkedin-icon {
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+}
+.text-muted {
+  margin-bottom: 120px;
 }
 
-.feature-story {
-  background-color: #ff9800;
-  padding: 15px;
-  font-weight: bold;
-  font-size: 1rem;
-
-margin-bottom: 30px;}
-
-.student-list {
-  margin-top: 20px;
-}
-
-.student-card {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-.selected {
-  border: 2px solid #ff5722 !important;
-}
-
-.student-details {
-  font-weight: bold;
-  margin-bottom: 80px;
-
-}
-/* Added a fix to ensure images scale properly on smaller screens */
-@media (max-width: 768px) {
-  .carousel-item img {
-    height: auto;
-    object-fit: contain;
-  }
-
-  .hero-title {
-    font-size: 2rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
-  }
-}
 .mission-title {
   color: red;
   font-weight: 500;
@@ -236,14 +187,73 @@ margin-bottom: 30px;}
   background-color: #ff7700;
   color: #000;
 }
+.story-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(to right, #ff3131, #ff914d);
+}
 
-/* Responsive adjustments */
-@media (min-width: 768px) {
-  .mission-text {
-    font-size: 28px;
+.thumbnail-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  padding: 2px;
+  background: linear-gradient(to right, #ff3131, #ff914d);
+  cursor: pointer;
+}
+
+.feature-story {
+  background-color: #ff9800;
+  padding: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+
+.student-info {
+  text-align: center;
+}
+.studentName{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .hero-image {
+    max-height: 300px;
+  }
+  .future-control-title {
+    font-size: 35px;
+    font-weight: 600;
+  }
+  .student_numbers {
+    font-weight: 700;
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-image {
+    max-height: 250px;
+  }
+  .future-control-title {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .student_numbers {
+    font-weight: 700;
+    font-size: 60px;
   }
 
-  .program-title {
-    font-size: 28px;
+  .hero-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
   }
 }

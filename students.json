@@ -1,0 +1,176 @@
+[
+  {
+    "id": 1,
+    "name": "Sudiish Kumar",
+    "company": "EduGaon, Amnour",
+    "linkedin": "https://www.linkedin.com/in/sudishkumar/",
+    "image": "Images/sudish.jpg"
+  },
+  
+  {
+    "id": 2,
+    "name": "Ansar Ali",
+    "company": "IIG Technology",
+    "linkedin": "https://www.linkedin.com/in/ansar-ali-9962751b2/",
+    "image": "Images/Sonu.png"
+  },
+  {
+    "id": 3,
+    "name": "Guddu Kumar",
+    "company": "PlayerzPot Media Pvt Ltd, Mumbai",
+    "linkedin": "https://www.linkedin.com/in/guddu-kumar-206b48233/",
+    "image": "Images/guddu.png"
+  },
+    {
+    "id": 4,
+    "name": "Chanchal Kumar",
+    "company": "Sloshout , Noida",
+    "linkedin": "https://www.linkedin.com/in/chanchal-kumar-708a5b221/",
+    "image": "Images/Chanchal.png"
+  },
+  {
+    "id": 5,
+    "name": "Kumar Shubhankar",
+    "company": "IDLABELS & Solution pvt limited, new Delhi",
+    "linkedin": "https://www.linkedin.com/in/kumar-shubhankar/",
+    "image": "Images/akash.png"
+  },
+  {
+    "id": 6,
+    "name": "Rinki Kumar",
+    "company": "EduGaon, Noida",
+    "linkedin": "https://www.linkedin.com/in/rinki-kumari-2b135b237/",
+    "image": "Images/rinki.png"
+  },
+  {
+    "id": 7,
+    "name": "Anurag Kumar",
+    "company": "Proclivity Digitech Private Limited, Kolkata",
+    "linkedin": "https://www.linkedin.com/in/anuragedugaon/",
+    "image": "Images/anurag.png"
+  },
+  {
+    "id": 8,
+    "name": "Ansar Ali Sah",
+    "company": "Skylabs Solution India Private Limited, Noida",
+    "linkedin": "https://www.linkedin.com/in/ansar-ali-shah-65686b222/",
+    "image": "Images/ansar.png"
+  },
+
+  {
+    "id": 9,
+    "name": "Suraj Singh",
+    "company": "AminAAZ Technology, Noida",
+    "linkedin": "https://www.linkedin.com/in/surajsinghedugaon/",
+    "image": "Images/suraj.png"
+  },
+  {
+    "id": 10,
+    "name": "Ankit Kumar",
+    "company": "Lenditt Innovations & Technologies Pvt Ltd, Gujarat",
+    "linkedin": "https://www.linkedin.com/in/ankit-patel-779913257/",
+    "image": "Images/ankit.png"
+  },
+  {
+    "id": 11,
+    "name": "Sahil Kumar",
+    "company": "Bitblue technology, Mumbai",
+    "linkedin": "https://www.linkedin.com/in/sahil-kumar-30bb79244/",
+    "image": "Images/sahil.png"
+  },
+  {
+    "id": 12,
+    "name": "Nitesh Raj Patel",
+    "company": "iGex Solutions, Gujarat",
+    "linkedin": "https://www.linkedin.com/in/niteshrajpateledugaon/",
+    "image": "Images/nitesh.png"
+  }
+  ,
+  {
+    "id": 13,
+    "name": "Nehal Babu",
+    "company": "Skylabs Solution India Private Limited, Noida ",
+    "linkedin": "https://www.linkedin.com/in/inehalbabu/",
+    "image": "Images/nehal.png"
+  }
+  ,
+  {
+    "id": 14,
+    "name": "Vijay kumar Singh",
+    "company": "Astha Animation pvt Ltd, Firozabad (UP)",
+    "linkedin": "https://www.linkedin.com/in/vijay-kumar-singh-50747b297/",
+    "image": "Images/vijay.png"
+  }
+  ,
+  {
+    "id": 15,
+    "name": "Sonu Kumar",
+    "company": "ID__15",
+    "linkedin": "https://www.linkedin.com/in/niteshrajpateledugaon/",
+    "image": "Images/Sonu.png"
+  }
+  ,
+  {
+    "id": 16,
+    "name": ": Sanjay Kumar",
+    "company": "Fusion Techlab, Kolkata",
+    "linkedin": "https://www.linkedin.com/in/sanjay-kumar-565a4a303/",
+    "image": "Images/sanjay.png"
+  }
+
+  ,
+  {
+    "id": 17,
+    "name": "Abhishek Kumar",
+    "company": "Dreamvessels Technology Pvt. Ltd, Noida",
+    "linkedin": "https://www.linkedin.com/in/abhishek-kumar-9926ba23b/",
+    "image": "Images/abhishek.png"
+  }
+  ,
+  {
+    "id": 17,
+    "name": "Amit kumar Singh",
+    "company": "IWorksDelight Inc, Punjab",
+    "linkedin": "https://www.linkedin.com/in/amitedugaon/",
+    "image": "Images/amit.png"
+  }
+  ,
+  {
+    "id": 18,
+    "name": "Ritesh Kumar",
+    "company": "EMINANZ TECHNOLOGY, Patna",
+    "linkedin": "https://www.linkedin.com/in/ritesh-kumar-59420b251/",
+    "image": "Images/Ritesh.png"
+  }
+  ,
+  {
+    "id": 19,
+    "name": "Sandeep Kumar",
+    "company": "Labbyak Technology pvt ltd, Ranchi(WHF) ",
+    "linkedin": "https://www.linkedin.com/in/sandeep-kumar-a2880825b/",
+    "image": "Images/sandeep.png"
+  }
+  ,
+  {
+    "id": 20,
+    "name": "Abhishek Singh",
+    "company": "Josoft Technologies Private Limited, Kolkata(WHF) ",
+    "linkedin": "https://www.linkedin.com/in/abhishek-kumar-singh-7a1a11252/",
+    "image": "Images/abhi.png"
+  }
+  ,
+  {
+    "id": 21,
+    "name": "Bipul Kumar",
+    "company": "______________ ",
+    "linkedin": "#",
+    "image": "Images/bipul.png"
+  },
+  {
+    "id": 22,
+    "name": "Priyanshu Ray",
+    "company": "Seraphic Infosolutions, Punjab",
+    "linkedin": "https://www.linkedin.com/in/priyanshuray/",
+    "image": "Images/Priyanshu.png"
+  }
+]
