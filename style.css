@@ -8,7 +8,13 @@
   color: white;
   background: linear-gradient(90deg, #ff512f, #f09819);
 }
-
+.logobox {
+  background-color: #ff9900;
+  text-align: center;
+  color: #000;
+  font-size: 18px;
+  padding: 5px;
+}
 /* Navbar brand styles */
 .navbar-brand {
   font-size: 35px;
@@ -60,19 +66,26 @@
 
 .hero-subtitle {
   font-size: 1.2rem;
-  color: #6c757d;
+  color: #a6a6a6;
 }
 
 .highlight {
-  color: #8c0d17;
-  font-weight: bold;
+  color: #da1212;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
+.custom-mission-text {
+  color: #87858f;
+}
 .future-control-title {
   font-size: 45px;
   font-weight: 600;
+}
+.numberOfEmployee {
+  gap: 12rem !important;
+  padding-bottom: 20px;
 }
 .student_numbers {
   font-weight: 700;
@@ -146,6 +159,8 @@
   border-radius: 8px;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
+  position: relative;
+  display: inline-block;
 }
 
 .program-card:hover {
@@ -216,11 +231,106 @@
 .student-info {
   text-align: center;
 }
-.studentName{
-    text-transform: uppercase;
-    font-size: 30px;
-    font-weight: 600;
+.studentName {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
 }
+
+.apply-btn {
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  background-color: red;
+  color: white;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+
+
+.location-box {
+  background-color: #ff9900;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.location-box h4 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+p {
+  color: black;
+  font-size: 14px;
+}
+
+.text-danger {
+  color: red !important;
+}
+
+@media (max-width: 768px) {
+  h1 {
+      font-size: 1.5rem;
+  }
+  .location-box h4 {
+      font-size: 1.2rem;
+  }
+  p {
+      font-size: 0.9rem;
+  }
+}
+
+
+
+.brand-title {
+  color: #ff9900;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.brand-subtitle {
+  background-color: #ff9900;
+  color: white;
+  display: inline-block;
+  padding: 4px 8px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+.form-question {
+  color: #4a4a4a;
+}
+
+.question-number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #6c757d;
+}
+
+.question-text {
+  font-size: 1.25rem;
+  margin-top: -10px;
+}
+
+.form-control {
+  border: 2px solid #ddd;
+  font-size: 1rem;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  font-size: 1.25rem;
+}
+
+
+
 
 @media (max-width: 768px) {
   .hero-image {
