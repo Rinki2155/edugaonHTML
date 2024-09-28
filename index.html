@@ -1,397 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EduGaon</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
 
-    <link rel="stylesheet" href="style.css" />
-    <!-- Importing Google Fonts for "More Sugar" font -->
-    <link
-      href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">EduGaon</a>
-        <!-- <div class="logobox">Empowering rural students</div> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-            <li class="nav-item dynamic-years me-4">
-              <a href="/" class="dynamic-years" id="yearsCount">6</a
-              ><sup class="yrs"> yrs</sup>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Success Story</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Enterprise</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#">Career Support</a>
-            </li>
-          </ul>
-        </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduGaon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div>
+        <h1 class="navbar-brand">EduGaon</h1>
+        <p class="brand-subtitle text-uppercase">Empowering rural students</p>
       </div>
-    </nav>
-
-    <!-- Carousel Part -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <ol class="carousel-indicators">
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-        ></li>
-      </ol>
-
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <section class="hero-section d-block w-100">
-            <div class="row g-0">
-              <div
-                class="col-md-6 hero-content d-flex flex-column justify-content-center"
-              >
-                <div class="textpara">
-                  <div class="highlight mb-3">Empower your career</div>
-                  <h1 class="hero-title mb-3">
-                    India’s Unique Software Engineering Institute
-                  </h1>
-                  <p class="hero-subtitle mt-3">
-                    We train you with life skill, communication skill, and
-                    software engineering to empower your life.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex p-0">
-                <img
-                  src="Images/HomeImage/5.jpg"
-                  alt="Hero Image"
-                  class="img-fluid w-100 hero-image"
-                />
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div class="carousel-item">
-          <section class="hero-section d-block w-100">
-            <div class="row g-0">
-              <div
-                class="col-md-6 hero-content d-flex flex-column justify-content-center"
-              >
-                <div class="textpara">
-                  <div class="highlight mb-3">Learn and start earning</div>
-                  <h1 class="hero-title mb-3">Become Software Engineer</h1>
-                  <p class="hero-subtitle mt-3">
-                    Spend 2 years with us and start earning from the 3rd year.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex p-0">
-                <img
-                  src="Images/HomeImage/2.jpg"
-                  alt="Hero Image"
-                  class="img-fluid w-100 hero-image"
-                />
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div class="carousel-item">
-          <section class="hero-section d-block w-100">
-            <div class="row g-0">
-              <div
-                class="col-md-6 hero-content d-flex flex-column justify-content-center"
-              >
-                <div class="textpara">
-                  <div class="highlight mb-3">Industry-relevant skills</div>
-                  <h1 class="hero-title mb-3">Learn with Industry Experts</h1>
-                  <p class="hero-subtitle mt-3">
-                    Power ahead with industry-relevant skills from Industry
-                    Experts.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex p-0">
-                <img
-                  src="Images/HomeImage/3.jpg"
-                  alt="Hero Image"
-                  class="img-fluid w-100 hero-image"
-                />
-              </div>
-            </div>
-          </section>
-        </div>
-
-        <div class="carousel-item">
-          <section class="hero-section d-block w-100">
-            <div class="row g-0">
-              <div
-                class="col-md-6 hero-content d-flex flex-column justify-content-center"
-              >
-                <div class="textpara">
-                  <div class="highlight mb-3">Focus on real skills</div>
-                  <h1 class="hero-title mb-3">
-                    Focus on real-world skills, not just academic credentials.
-                  </h1>
-                  <p class="hero-subtitle mt-3">
-                    Acquiring practical skills and hands-on experience over
-                    merely focusing on academic qualifications or theoretical
-                    knowledge.
-                  </p>
-                </div>
-              </div>
-              <div class="col-md-6 d-flex p-0">
-                <img
-                  src="Images/HomeImage/4.jpg"
-                  alt="Hero Image"
-                  class="img-fluid w-100 hero-image"
-                />
-              </div>
-            </div>
-          </section>
-        </div>
+      <!-- <div class="logobox">Empowering rural students</div> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <li class="nav-item dynamic-years me-4">
+            <a href="/" class="dynamic-years" id="yearsCount">6</a><sup class="yrs"> yrs</sup>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#success-story">Success Story</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+          <!-- <li class="nav-item me-3">
+            <a class="nav-link" href="#details-page">Details Page</a>
+          </li> -->
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#career-support">Career Support</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
+  <!-- Carousel Part -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-indictor"></li>
+    </ul>
+    <div class="container slider-container carousel-inner">
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Empower your career</div>
+            <h1 class="carousel-title">
+              India’s Unique Software Engineering Institute
+            </h1>
+            <p class="carousel-subtitle">
+              We train you with life skill, communication skill, and software
+              engineering to empower your life.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/5.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Learn and start earning</div>
+            <h1 class="carousel-title">Become Software Engineer</h1>
+            <p class="carousel-subtitle">
+              Spend 2 years with us and start earning from the 3rd year.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/2.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Industry-relevant skills</div>
+            <h1 class="carousel-title">Learn with Industry Experts</h1>
+            <p class="carousel-subtitle">
+              Power ahead with industry-relevant skills from Industry Experts.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/3.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
 
-    <!-- Our Mission Section -->
-    <div class="container col-md-9">
-      <div class="mb-5 py-5">
-        <div class="mission-title text-center py-5">Our Mission</div>
-        <p class="mission-text custom-mission-text py-2">
-          To empower <span>rural students</span> in India by improving their
-          <span>English communication</span> skills and train them with
-          <span>Emerging Technology.</span>
-        </p>
-        <div class="row">
-          <!-- Program 1 -->
-          <div class="mission-title py-2">Our Programs</div>
+      <!-- Fourth Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Focus on real skills</div>
+            <h1 class="carousel-title">
+              Focus on real-world skills, not just academic credentials.
+            </h1>
+            <p class="carousel-subtitle">
+              Acquiring practical skills and hands-on experience over merely
+              focusing on academic qualifications or theoretical knowledge.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/4.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Next/previous buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <img src="/images/icons/left_arrow.png" alt="left arrow image" class="carousel-control-prev-icon">
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <img src="/images/icons/right_arrow.png" alt="left arrow image" class="carousel-control-prev-icon">
 
-          <div class="col-md-6">
-            <div class="program-card">
-              <img
-                src="Images/HomeImage/2.jpg"
-                alt="Professional Diploma in Software Engineering"
-                class="program-image p-2"
-                height="300px"
-              />
-              <button class="apply-btn">Apply</button>
-              <div class="program-content">
-                <h4 class="program-title">
-                  Professional Diploma in Software Engineering
-                </h4>
-                <p class="program-duration">2 Year for Inter</p>
-                <button class="program-button">100% Job Guaranteed</button>
-              </div>
+    </button>
+  </div>
+  <!-- Our Mission Section -->
+  <div class="container col-md-9 py-5">
+    <div>
+      <div class="mission-title text-center">Our Mission</div>
+      <p class="custom-mission-text">
+        To empower <span class="mission-text">rural students</span> in India
+        by improving their
+        <span class="mission-text">English communication</span> skills and
+        train them with
+        <span class="mission-text">Emerging Technology.</span>
+      </p>
+      <div class="row">
+        <!-- Program 1 -->
+        <div class="our-program-title py-3">Our Programs</div>
+
+        <div class="col-md-6">
+          <div class="program-card">
+            <img src="images/slider/2.jpg" alt="Professional Diploma in Software Engineering" class="program-image p-2"
+              height="300px" />
+            <a href="#career-support"><button class="apply-btn">Apply</button></a>
+            <div class="program-content">
+              <h4 class="program-title">
+                Professional Diploma in Software Engineering
+              </h4>
+              <p class="program-duration">2 Year for Inter / 12th</p>
+              <button class="program-button">100% Job Guaranteed</button>
             </div>
           </div>
+        </div>
 
-          <!-- Program 2 -->
-          <div class="col-md-6 mb-4">
-            <div class="program-card">
-              <img
-                src="Images/HomeImage/2.jpg"
-                alt="Professional Diploma in Software Engineering"
-                class="program-image p-2"
-                height="300px"
-              />
-              <button class="apply-btn">Apply</button>
+        <!-- Program 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="program-card">
+            <img src="images/slider/2.jpg" alt="Professional Diploma in Software Engineering" class="program-image p-2"
+              height="300px" />
+            <a href="#career-support"><button class="apply-btn">Apply</button></a>
 
-              <div class="program-content">
-                <h4 class="program-title">
-                  Professional Diploma in Software Engineering
-                </h4>
-                <p class="program-duration">1 Year for BA/BSc/BCom</p>
-                <button class="program-button">100% Job Guaranteed</button>
-              </div>
+            <div class="program-content">
+              <h4 class="program-title">
+                Professional Diploma in Software Engineering
+              </h4>
+              <p class="program-duration">
+                1st Year for BA / BCA / BSc / BCom & BSc (IT)
+              </p>
+              <button class="program-button">100% Job Guaranteed</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Our Near to location section Section -->
-    <div class="container col-md-9 text-center">
-      <div class="mission-title py-1">Your Success is Our Success</div>
-      <h1 class="future-control-title my-4">
-        Take control of your future! Start your path to becoming a software
-        engineer now.
-      </h1>
+  </div>
+  <!-- Our Number of employee and students section Section -->
+  <div class="container col-md-9 text-center">
+    <div class="mission-title">Your Success is Our Success</div>
+    <h1 class="future-control-title">
+      Take control of your future! Start your path to <br />becoming a
+      software engineer now.
+    </h1>
 
-      <div
-        class="d-flex flex-column flex-md-row justify-content-center gap-5 gap-md-6 mt-5 mission-title numberOfEmployee"
-      >
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">300+</span>
-          <span class="d-block">Students and Alumni</span>
+    <div class="justify-content-center d-flex  flex-md-row gap-5 gap-md-6 mt-3 mission-title numberOfEmployee">
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">300+</span>
+        <span class="d-block student_numbers_text">Students and Alumni</span>
+      </div>
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">25+</span>
+        <span class="d-block student_numbers_text">Starting Salary</span>
+      </div>
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">20+</span>
+        <span class="d-block student_numbers_text">Companies Hired</span>
+      </div>
+    </div>
+  </div>
+  <!-- Our Near to location section Section -->
+  <div class="container col-md-9 text-center">
+    <a name="contact-us"></a>
+    <div class="mission-title" style="padding-top: 10%">
+      we’re near to you
+    </div>
+    <h1 class="mb-5 fw-bold py-3 future-control-title">
+      Call us at +91 8709579455
+    </h1>
+    <!-- <h1 class="future-control-title">
+        Become a Software Engineer Without Leaving <br />
+        Your Village
+      </h1> -->
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-md-6 mt-5 LocationNearTo">
+      <div class="location-item">
+        <div class="institute_location">Amnour</div>
+        <div class="location-1">
+          Amnour - Taraiya Road,<br />
+          Parshuram Pur, Rasulpur, Nautan,<br />
+          Amnour - 841401,<br />
+          Bihar
         </div>
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">25+</span>
-          <span class="d-block">Starting Salary</span>
+
+      </div>
+      <div class="location-item">
+        <div class="institute_location">Parsa</div>
+        <div class="location-1">
+          Near Hanuman Mandir,<br />
+          Patna - Parsa - Siwan Highway Rd,<br />
+          Parsa - 841219,<br />
+          Bihar
         </div>
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">20+</span>
-          <span class="d-block">Companies Hired</span>
+
+      </div>
+      <div class="location-item">
+        <div class="institute_location">Patna</div>
+        <div class="location-1">
+          Near Doctors Colony,<br />
+          Rajendra Nagar,<br />
+          Patna - 800020,<br />
+          Bihar.
         </div>
       </div>
     </div>
-        <!-- Our Success  number of students Section -->
-    <section class="py-5 text-center">
-      <div class="container">
-          <p class="text-uppercase text-danger mb-2">We're near to you</p>
-          <h1 class="mb-5 fw-bold">Become a Software Engineer Without Leaving Your Village</h1>
-          <div class="row justify-content-center">
-              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                  <div class="location-box p-4 text-center">
-                      <h4 class="fw-bold text-white">Amnour</h4>
-                      <p>Amnour - Taraiya Rd, Parshuram Pur, Rasulpur, Nautan, Amnour, Bihar 841401</p>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                  <div class="location-box p-4 text-center">
-                      <h4 class="fw-bold text-white">Parsa</h4>
-                      <p>Near Hanuman Mandir, Patna - Parsa - Siwan Hwy, Parsa, Bihar 841219</p>
-                  </div>
-              </div>
-              <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
-                  <div class="location-box p-4 text-center">
-                      <h4 class="fw-bold text-white">Patna</h4>
-                      <p>Patna</p>
-                  </div>
-              </div>
-          </div>
+  </div>
+  <div class="container col-md-9" style="padding-top: 5%">
+
+    <a name="success-story"></a>
+    <h1 class="mission-title py-3 text-center">SUCCESS STORIES</h1>
+    <!-- Main Featured Story -->
+    <div class="d-flex justify-content-center align-items-center mb-4">
+      <div class="col-md-3 mx-4">
+        <img id="mainImage" src="images/gallery/sudish.jpeg" alt="Student" class="story-img" />
       </div>
+      <div class="mx-4">
+        <div class="feature-story">FEATURE STORY</div>
+        <div id="studentName" class="studentName">Sudish Kumar</div>
+        <p id="studentCompany" class="text-muted">EduGaon, Amnour</p>
+        <a id="studentLinkedin" href="https://www.linkedin.com/in/sudishkumar/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon" />
+        </a>
+      </div>
+    </div>
+    <!-- Thumbnail Carousel -->
+    <div class="d-flex justify-content-center align-items-center py-5 thumbnail-box">
+      <span id="prevBtn">
+      </span>
+      <div class="d-flex overflow-auto mx-3 col-md-10 " id="thumbnails">
+        <!-- Thumbnails will be generated here -->
+      </div>
+      <span id="nextBtn">
+      </span>
+    </div>
+  </div>
+  <section>
+    <div class="container col-md-9 py-3">
+      <p class="text-center" style="color: #da1212;">Diverse Industries & Geographies</p>
+
+      <div class="future-control-title enterprise-title">Companies Trust EduGaon Learners</div>
+      <div class="logo-container">
+        <img src="images/cp_logo/1.jpeg" alt="cp_logo1">
+        <img src="images/cp_logo/2.jpeg" alt="cp_logo2">
+        <img src="images/cp_logo/3.jpeg" alt="cp_logo3">
+        <img src="images/cp_logo/4.jpeg" alt="cp_logo4">
+        <img src="images/cp_logo/5.jpeg" alt="cp_logo5">
+        <img src="images/cp_logo/6.jpeg" alt="cp_logo6">
+        <img src="images/cp_logo/7.jpeg" alt="cp_logo7">
+        <img src="images/cp_logo/8.jpeg" alt="cp_logo8">
+        <img src="images/cp_logo/9.jpeg" alt="cp_logo9">
+        <img src="images/cp_logo/10.jpeg" alt="cp_logo10">
+        <img src="images/cp_logo/11.jpeg" alt="cp_logo11">
+        <img src="images/cp_logo/12.jpeg" alt="cp_logo12">
+        <img src="images/cp_logo/13.jpeg" alt="cp_logo13">
+        <!-- <img src="images/cp_logo/14.jpeg" alt="cp_logo14"> -->
+        <img src="images/cp_logo/15.jpeg" alt="cp_logo15">
+        <img src="images/cp_logo/16.jpeg" alt="cp_logo16">
+        <img src="images/cp_logo/17.jpeg" alt="cp_logo17">
+        <img src="images/cp_logo/18.jpeg" alt="cp_logo18">
+        <img src="images/cp_logo/19.jpeg" alt="cp_logo19">
+        <img src="images/cp_logo/20.jpeg" alt="cp_logo20">
+        <img src="images/cp_logo/21.jpeg" alt="cp_logo21">
+        <img src="images/cp_logo/22.jpeg" alt="cp_logo22">
+        <img src="images/cp_logo/23.jpeg" alt="cp_logo23">
+        <img src="images/cp_logo/24.jpeg" alt="cp_logo24">
+        <img src="images/cp_logo/25.jpeg" alt="cp_logo25">
+        <img src="images/cp_logo/26.jpeg" alt="cp_logo26">
+        <img src="images/cp_logo/27.jpeg" alt="cp_logo27">
+        <img src="images/cp_logo/28.jpeg" alt="cp_logo28">
+        <!-- <img src="images/cp_logo/29.jpeg" alt="cp_logo29">
+        <img src="images/cp_logo/30.jpeg" alt="cp_logo30">
+        <img src="images/cp_logo/31.jpeg" alt="cp_logo31">
+        <img src="images/cp_logo/32.jpeg" alt="cp_logo32">
+        <img src="images/cp_logo/33.jpeg" alt="cp_logo33"> -->
+        <!-- <img src="images/cp_logo/34.jpeg" alt="cp_logo34">
+        <img src="images/cp_logo/35.jpeg" alt="cp_logo35">
+        <img src="images/cp_logo/36.jpeg" alt="cp_logo36">
+        <img src="images/cp_logo/37.jpeg" alt="cp_logo37"> -->
+      </div>
+    </div>
   </section>
 
 
 
-    <div class="container text-center py-5">
-      <h1 class="mission-title mb-4 py-2">SUCCESS STORIES</h1>
 
-      <!-- Main Featured Story -->
-      <div class="row justify-content-center align-items-center mb-4">
-        <div class="col-md-4">
-          <img
-            id="mainImage"
-            src="Images/HomeImage/1.png"
-            alt="Student"
-            class="story-img"
-          />
-        </div>
-        <div class="col-md-5 text-md-start text-center">
-          <div class="feature-story">FEATURE STORY</div>
-          <div id="studentName" class="my-2 studentName">Sudiish Kumar</div>
-          <p id="studentCompany" class="text-muted">EduGaon, Amnour</p>
-          <a
-            id="studentLinkedin"
-            href="https://www.linkedin.com/in/sudishkumar/"
-            target="_blank"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-              alt="LinkedIn"
-              class="linkedin-icon"
-            />
-          </a>
-        </div>
-      </div>
 
-      <!-- Thumbnail Carousel -->
-      <div class="d-flex justify-content-center align-items-center py-5">
-        <span id="prevBtn">
-          <img
-            src="https://resources.stormcloudamz.com/Pics/arrow_left.png"
-            alt="left-arrow"
-            height="30px"
-            width="30px"
-          />
-        </span>
-        <div class="d-flex overflow-auto mx-3" id="thumbnails">
-          <!-- Thumbnails will be generated here -->
-        </div>
-        <span id="nextBtn">
-          <img
-            src="https://resources.stormcloudamz.com/Pics/arrow_right.png"
-            alt="left-arrow"
-            height="30px"
-            width="30px"
-          />
-        </span>
-      </div>
+
+
+
+
+  <!-- <section>
+  <div class="card col-md-9">
+    Hello
+  </div>
+  
+</section> -->
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Logo and Branding Section -->
+  <section class="text-center py-5">
+    <div class="container">
+      <h1 class="brand-title">EduGaon</h1>
+      <p class="brand-subtitle text-uppercase">Empowering rural students</p>
     </div>
-
-    <!-- Logo and Branding Section -->
-    <section class="text-center py-5">
-      <div class="container">
-          <h1 class="brand-title">EduGaon</h1>
-          <p class="brand-subtitle text-uppercase">Empowering rural students</p>
-      </div>
   </section>
-
   <!-- Form Section -->
   <section class="text-center">
-      <div class="container">
-          <div class="form-question py-4">
-              <p class="question-number">1</p>
-              <p class="question-text">Please provide your full name:</p>
-          </div>
-          <form class="form-inline">
-              <input type="text" class="form-control w-75 mb-3" placeholder="Type your answer here...">
-              <button type="submit" class="btn btn-primary">OK</button>
-              <p class="mt-2">Press Enter ↵</p>
-          </form>
-      </div>
+    <a name="career-support"></a>
+    <div class="container">
+      <iframe src="https://forms.fillout.com/t/4RsuHJEGs3us" width="80%" height="600px"></iframe>
+    </div>
   </section>
+  <!-- Bootstrap JS scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
 
-    
-    <!-- Bootstrap JS scripts -->
-    <script src="script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-  </body>
 </html>

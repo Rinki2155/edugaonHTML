@@ -2,105 +2,32 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: "Canva Sans", sans-serif;
 }
-/* Gradient background only for navbar */
+html,
+body {
+  overflow-x: hidden;
+  padding-top: 60px;
+}
 .navbar {
   color: white;
   background: linear-gradient(90deg, #ff512f, #f09819);
 }
-.logobox {
-  background-color: #ff9900;
-  text-align: center;
-  color: #000;
-  font-size: 18px;
-  padding: 5px;
-}
-/* Navbar brand styles */
 .navbar-brand {
   font-size: 35px;
   font-weight: bold;
   color: white;
 }
-
-/* Menu items */
 .navbar-nav .nav-link {
   color: black;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
   transition: color 0.3s ease;
 }
 
-/* Custom container for menu */
-.container-fluid {
-  justify-content: space-between;
-  width: 95%;
-}
-/* Ensure all images fit uniformly */
-.carousel-item img {
-  width: 100%;
-  height: 100vh; /* Ensuring all images take full screen height */
-  object-fit: cover; /* Ensures the image covers the whole area */
-}
-
-/* Uniform section padding and layout */
-.hero-section {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.hero-content {
-  padding: 30px;
-  max-width: 90%; /* Ensures content does not exceed bounds */
-}
-
-.textpara {
-  margin-left: 30px;
-  width: 100%; /* Set width to 100% to avoid overflow */
-}
-
-.hero-title {
-  font-size: 3rem;
-  font-weight: 700;
-}
-
-.hero-subtitle {
-  font-size: 1.2rem;
-  color: #a6a6a6;
-}
-
-.highlight {
-  color: #da1212;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-}
-.custom-mission-text {
-  color: #87858f;
-}
-.future-control-title {
-  font-size: 45px;
-  font-weight: 600;
-}
-.numberOfEmployee {
-  gap: 12rem !important;
-  padding-bottom: 20px;
-}
-.student_numbers {
-  font-weight: 700;
-  font-size: 80px;
-}
-.stat-item {
-  text-transform: uppercase;
-  font-weight: 600;
-}
-/* Menu hover effect */
 .navbar-nav .nav-link:hover {
   color: white;
 }
-
-/* Dynamic year styling */
 .dynamic-years a {
   text-decoration: none;
   font-size: 58px;
@@ -109,7 +36,6 @@
   font-family: More Suger, cursive;
   margin-right: 10px;
 }
-
 .yrs {
   font-family: "Bimbo", cursive;
   font-size: 20px;
@@ -117,59 +43,109 @@
   font-weight: normal;
   vertical-align: super;
 }
-
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.hero-image {
-  max-height: 800px;
+.carousel-title {
+  font-size: 41;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.carousel-subtitle {
+  font-size: 16px;
+  color: #a6a6a6;
+  font-weight: bold;
+  padding-top: 12px;
+}
+.carousel-image-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.carousel-image {
+  max-width: 85%;
   object-fit: cover;
+  max-height: auto;
 }
-
-.linkedin-icon {
-  width: 60px;
-  height: 60px;
+.carousel-indicators {
+  justify-content: center;
+  padding: 7px;
+  margin-right: 15%;
+  margin-bottom: -2rem;
 }
-.text-muted {
-  margin-bottom: 120px;
+/* Default style for inactive indicators */
+.carousel-indicators .carousel-indictor {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #ff9900 !important;
+  transition: all 0.2s ease-in-out; /* Smooth transition */
 }
-
+/* Active indicator style */
+.carousel-indicators .carousel-indictor.active {
+  width: 32px;
+  height: 8px;
+  border-radius: 10px; /* Make it a bar when active */
+  background-color: black !important;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 50px;
+  height: 50px;
+}
+.carousel-control-prev {
+  left: -50px;
+}
+.carousel-control-next {
+  right: 20px;
+}
+.carousel-content {
+  width: 50%;
+}
+.highlight {
+  color: #da1212;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+.custom-mission-text {
+  color: #a6a6a6 !important;
+  font-size: 27px !important;
+  font-weight: 400 !important;
+  font-weight: bold;
+  /* padding-top: 2%; */
+}
 .mission-title {
-  color: red;
-  font-weight: 500;
-  font-size: 18px;
+  color: #da1212;
+  font-weight: bold;
+  font-size: 13px;
+  /* padding-top: 2%; */
   text-transform: uppercase;
 }
-
+.our-program-title {
+  color: #da1212;
+  font-weight: bold;
+  font-size: 13px;
+  text-transform: uppercase;
+}
 .mission-text {
-  font-size: 28px;
-  color: #504d4d;
-  margin-bottom: 30px;
-  font-weight: 600;
+  color: #da1212;
+  font-weight: bold;
 }
 
-.mission-text span {
-  color: red;
-}
-
-/* Program Cards */
 .program-card {
-  border: 2px dotted black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: 2px dotted #ff9900;
   border-radius: 8px;
   overflow: hidden;
-  transition: box-shadow 0.3s ease;
   position: relative;
   display: inline-block;
 }
-
-.program-card:hover {
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
 .program-image {
   width: 100%;
-  /* height: auto; */
   object-fit: cover;
 }
 
@@ -187,10 +163,23 @@
   color: #666;
   margin-bottom: 20px;
 }
-
-/* Button styles */
+.apply-btn {
+  background: linear-gradient(90deg, #f24421, #ff9900);
+  color: white;
+  width: 150px;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 1px white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
 .program-button {
-  background-color: #ff9900;
+  background: linear-gradient(90deg, #ff9900, #f24421);
+  border-radius: 10px;
   color: black;
   font-weight: bold;
   padding: 10px 15px;
@@ -199,32 +188,92 @@
 }
 
 .program-button:hover {
-  background-color: #ff7700;
-  color: #000;
+  background: linear-gradient(90deg, #ff3131, #eba337);
+  color: white;
 }
+
+.future-control-title {
+  padding-top: 2%;
+  font-size: 35px;
+  font-weight: 600;
+}
+.numberOfEmployee {
+  display: flex;
+  gap: 15em !important;
+  padding-top: 5%;
+}
+.student_numbers {
+  font-weight: 700;
+  font-size: 80px;
+}
+.student_numbers_text {
+  font-size: 11px;
+  text-align: left;
+}
+.stat-item {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 30px;
+}
+.institute_location {
+  color: white;
+  background-color: #ff9900;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  width: 100%;
+  border-radius: 10px;
+}
+.location-item {
+  width: 200px;
+  border-radius: 10px;
+  border: 2px dotted black;
+  padding-bottom: 5px;
+}
+.location-1 {
+  width: 180px;
+  padding: 20px;
+  font-size: 13px;
+  text-align: center;
+}
+.LocationNearTo {
+  gap: 4em;
+}
+
+.linkedin-icon {
+  width: 50px;
+  height: 50px;
+}
+.text-muted {
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
 .story-img {
-  width: 350px;
-  height: 350px;
-  border-radius: 12px;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
   padding: 2px;
   background: linear-gradient(to right, #ff3131, #ff914d);
 }
 
 .thumbnail-img {
-  width: 80px;
-  height: 80px;
-  border-radius: 12px;
+  width: 70px;
+  height: 70px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  /* border-radius: 12px; */
   padding: 2px;
   background: linear-gradient(to right, #ff3131, #ff914d);
   cursor: pointer;
 }
 
 .feature-story {
+  width: 320px;
   background-color: #ff9800;
-  padding: 15px;
-  font-weight: bold;
+  padding: 20px;
   text-align: center;
-  font-size: 1rem;
+  font-size: 14px;
   margin-bottom: 30px;
 }
 
@@ -233,25 +282,9 @@
 }
 .studentName {
   text-transform: uppercase;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 26px;
+  /* font-weight: 600; */
 }
-
-.apply-btn {
-  width: 150px;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  /* transform: translateX(-50%); */
-  background-color: red;
-  color: white;
-  padding: 8px 10px;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-}
-
-
 
 .location-box {
   background-color: #ff9900;
@@ -271,22 +304,8 @@ p {
 }
 
 .text-danger {
-  color: red !important;
+  color: #da1212 !important;
 }
-
-@media (max-width: 768px) {
-  h1 {
-      font-size: 1.5rem;
-  }
-  .location-box h4 {
-      font-size: 1.2rem;
-  }
-  p {
-      font-size: 0.9rem;
-  }
-}
-
-
 
 .brand-title {
   color: #ff9900;
@@ -296,7 +315,7 @@ p {
 
 .brand-subtitle {
   background-color: #ff9900;
-  color: white;
+  color: black;
   display: inline-block;
   padding: 4px 8px;
   font-weight: 600;
@@ -322,48 +341,274 @@ p {
   border: 2px solid #ddd;
   font-size: 1rem;
 }
+#thumbnails {
+  display: flex;
+  /* padding: 30px; */
+  flex-wrap: wrap;
+  gap: 7px;
+  justify-content: center;
+}
+.thumbnail-box {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 40px;
+}
 
+.thumbnail {
+  flex: 1 1 calc(100% / 7 - 10px);
+  max-width: calc(100% / 7 - 10px);
+  box-sizing: border-box;
+}
 .btn-primary {
   background-color: #007bff;
   border: none;
   font-size: 1.25rem;
 }
 
+/* Main section styling */
+.success-story2 {
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  border: 2px dotted #ff9900;
+}
+.fetures_video_story {
+  width: 280px;
+  padding: 15px;
+  background-color: #ff9900;
+  color: #000;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+}
 
+.fetures_video_story::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: -29px;
+  width: 0;
+  height: 0;
+  border-top: 30px solid transparent;
+  border-bottom: 25px solid transparent;
+  border-left: 30px solid #ff9900;
+}
+.profile-video-desc {
+  display: flex;
+  align-items: center;
+}
 
+.profile-icon {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.name-cp-name {
+  margin-left: 10px;
+}
+.star-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.enterprise-title {
+  padding-top: 0% !important;
+  margin-bottom: 60px;
+  text-align: center;
+}
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+.logo-container img {
+  max-width: 180px;
+  max-height: 50px;
+}
 
 @media (max-width: 768px) {
-  .hero-image {
-    max-height: 300px;
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .slider-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .our-program-title {
+    color: #da1212;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .carousel-content {
+    padding: 50px 32px 21px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(
+      0deg,
+      #071929 47.21%,
+      rgba(7, 25, 41, 0.9) 56.75%,
+      rgba(7, 25, 41, 0) 85.25%
+    );
+  }
+  .carousel-section {
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 386px;
+    background-size: cover;
+  }
+  .carousel-control-next {
+    right: -54px;
+  }
+  .carousel-image-container {
+    display: none;
+  }
+  .carousel-item:nth-child(1) .carousel-section {
+    background-image: url("images/slider/5.jpg");
+  }
+
+  .carousel-item:nth-child(2) .carousel-section {
+    background-image: url("images/slider/2.jpg");
+  }
+
+  .carousel-item:nth-child(3) .carousel-section {
+    background-image: url("images/slider/3.jpg");
+  }
+
+  .carousel-item:nth-child(4) .carousel-section {
+    background-image: url("images/slider/4.jpg");
+  }
+  .carousel-title {
+    color: white;
+    font-size: 28px;
+  }
+  .carousel-subtitle {
+    font-size: 16px;
+    color: white;
+  }
+  .custom-mission-text {
+    color: #a6a6a6 !important;
+    font-size: 16px !important;
+    text-align: center;
+    font-weight: 400 !important;
+  }
+  /* .highlight {
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+  } */
+
+  .carousel-indicators {
+    margin-top: 20px;
   }
   .future-control-title {
-    font-size: 35px;
-    font-weight: 600;
+    font-size: 15px;
+  }
+  .numberOfEmployee {
+    flex-direction: row;
+    gap: 3em !important;
+    padding-top: 2%;
   }
   .student_numbers {
     font-weight: 700;
-    font-size: 60px;
+    font-size: 40px;
+  }
+  .student_numbers_text {
+    font-size: 8px;
+    text-align: center;
+  }
+  /* .LocationNearTo {
+    gap: 1em !important;
+  } */
+  .location-item {
+    margin: auto;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px dotted black;
+  }
+  .story-img {
+    margin: 2%;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    padding: 2px;
+    background: linear-gradient(to right, #ff3131, #ff914d);
+  }
+  .feature-story {
+    width: 170px;
+    background-color: #ff9800;
+    padding: 14px;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 5px;
+    margin-top: 40px;
+  }
+  .studentName {
+    text-transform: uppercase;
+    font-size: 18px;
+    /* font-weight: 600; */
+  }
+  .text-muted {
+    margin-bottom: 12px;
+    font-size: 16px;
+  }
+  .linkedin-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .thumbnail-img {
+    width: 40px;
+    height: 40px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    /* border-radius: 12px; */
+    padding: 2px;
+    border: 1px solid linear-gradient(to right, #ff3131, #ff914d);
+    /* background: linear-gradient(to right, #ff3131, #ff914d); */
+    cursor: pointer;
   }
 }
 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .fetures_video_story {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .profile-video-desc {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .name-cp-name {
+    margin-left: 0;
+  }
+
+  .profile-icon {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .enterprise-title {
+    font-size: 2rem;
+  }
+  .logo-container img {
+    max-width: 120px;
+    max-height: 70px;
+  }
+}
 @media (max-width: 576px) {
-  .hero-image {
-    max-height: 250px;
-  }
-  .future-control-title {
-    font-size: 25px;
-    font-weight: 600;
-  }
-  .student_numbers {
-    font-weight: 700;
-    font-size: 60px;
-  }
-
-  .hero-title {
-    font-size: 1.5rem;
-  }
-
-  .hero-subtitle {
-    font-size: 1rem;
+  .logo-container img {
+    max-width: 100px;
+    max-height: 60px;
   }
 }

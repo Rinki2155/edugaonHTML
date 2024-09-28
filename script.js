@@ -11,6 +11,7 @@ const fetchStudentData = async () => {
   try {
     const response = await fetch("students.json");
     students = await response.json();
+    students.reverse(); // Reverse the array here
     initializeCarousel();
     updateMainStory(students[0]);
   } catch (error) {
@@ -20,7 +21,7 @@ const fetchStudentData = async () => {
 
 // Update the main featured story
 const updateMainStory = (student) => {
-  document.getElementById("mainImage").src = student.image;
+  document.getElementById("mainImage").src = student.galleryImage; // Use galleryImage here
   document.getElementById("studentName").textContent = student.name;
   document.getElementById("studentCompany").textContent = student.company;
   document.getElementById("studentLinkedin").href = student.linkedin;
@@ -30,11 +31,11 @@ const updateMainStory = (student) => {
 const initializeCarousel = () => {
   const thumbnails = document.getElementById("thumbnails");
   thumbnails.innerHTML = "";
-  const slice = students.slice(startIndex, startIndex + 7);
+  const slice = students.slice(startIndex, startIndex.length);
 
   slice.forEach((student) => {
     const thumbnail = document.createElement("img");
-    thumbnail.src = student.image;
+    thumbnail.src = student.image; // Use image for thumbnails
     thumbnail.alt = student.name;
     thumbnail.classList.add("thumbnail-img", "me-2");
     thumbnail.addEventListener("click", () => updateMainStory(student));
@@ -52,7 +53,7 @@ const showPrevious = () => {
 
 // Show next students in the carousel
 const showNext = () => {
-  if (startIndex + 5 < students.length) {
+  if (startIndex + 7 < students.length) { // Changed to +7 to match the slice size
     startIndex++;
     initializeCarousel();
   }
