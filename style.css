@@ -250,16 +250,18 @@ body {
 }
 
 .story-img {
-  width: 300px;
-  height: 300px;
-  border-radius: 20px;
+  width: 330px;
+  height: 330px;
+  border-radius: 10px;
   padding: 2px;
   background: linear-gradient(to right, #ff3131, #ff914d);
 }
-
+.stuimg_detels{
+  margin-bottom: 70px;
+}
 .thumbnail-img {
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   /* border-radius: 12px; */
@@ -350,7 +352,7 @@ p {
 }
 .thumbnail-box {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 .thumbnail {
@@ -502,7 +504,12 @@ p {
     font-weight: 700;
     text-transform: uppercase;
   } */
-
+  .logo-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
   .carousel-indicators {
     margin-top: 20px;
   }
@@ -510,7 +517,7 @@ p {
     font-size: 15px;
   }
   .numberOfEmployee {
-    flex-direction: row;
+    flex-direction: column;
     gap: 3em !important;
     padding-top: 2%;
   }
@@ -521,6 +528,9 @@ p {
   .student_numbers_text {
     font-size: 8px;
     text-align: center;
+  }
+  .stuimg_detels{
+    margin-bottom: 25px;
   }
   /* .LocationNearTo {
     gap: 1em !important;
@@ -533,9 +543,9 @@ p {
   }
   .story-img {
     margin: 2%;
-    width: 130px;
-    height: 130px;
-    border-radius: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
     padding: 2px;
     background: linear-gradient(to right, #ff3131, #ff914d);
   }
@@ -562,13 +572,13 @@ p {
     height: 25px;
   }
   .thumbnail-img {
-    width: 40px;
-    height: 40px;
-    border-bottom-left-radius: 10px;
+    width: 80px;
+    height: 80px;
+    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
     border-top-left-radius: 0px;
-    border-top-right-radius: 10px;
-    /* border-radius: 12px; */
+    border-top-right-radius: 0px;
+    border-radius: 10px;
     padding: 2px;
     border: 1px solid linear-gradient(to right, #ff3131, #ff914d);
     /* background: linear-gradient(to right, #ff3131, #ff914d); */

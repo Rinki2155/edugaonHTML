@@ -4,6 +4,18 @@ const currentYear = new Date().getFullYear();
 const yearsActive = currentYear - startYear;
 document.getElementById("yearsCount").innerText = yearsActive;
 
+// for collsape
+
+document.querySelectorAll('.navbar-nav a').forEach(link => {
+  link.addEventListener('click', () => {
+      const navbarToggler = document.querySelector('.navbar-toggler');
+      const navbarCollapse = document.querySelector('.navbar-collapse');
+      if (navbarCollapse.classList.contains('show')) {
+          navbarToggler.click();  // Toggle to close the navbar after selection
+      }
+  });
+});
+
 // Update the feature section with selected student data
 let students = [];
 let startIndex = 0;
