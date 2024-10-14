@@ -1,628 +1,626 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>EduGaon</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
-      rel="stylesheet"
-    />
-  </head>
 
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <div>
-          <h1 class="navbar-brand">EduGaon</h1>
-          <p class="brand-subtitle text-uppercase">Empowering rural students</p>
-        </div>
-        <!-- <div class="logobox">Empowering rural students</div> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-            <li class="nav-item dynamic-years me-4">
-              <a href="/" class="dynamic-years" id="yearsCount">6</a
-              ><sup class="yrs"> yrs</sup>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#success-story">Success Story</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#contact-us">Contact Us</a>
-            </li>
-            <!-- <li class="nav-item me-3">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduGaon</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style2.css">
+  <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div>
+        <h1 class="navbar-brand">EduGaon</h1>
+        <p class="brand-subtitle text-uppercase">Empowering rural students</p>
+      </div>
+      <!-- <div class="logobox">Empowering rural students</div> -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <li class="nav-item dynamic-years me-4">
+            <a href="/" class="dynamic-years" id="yearsCount">6</a><sup class="yrs"> yrs</sup>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#success-story">Success Story</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#contact-us">Contact Us</a>
+          </li>
+          <!-- <li class="nav-item me-3">
             <a class="nav-link" href="#details-page">Details Page</a>
           </li> -->
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#career-support">Career Support</a>
-            </li>
-          </ul>
-        </div>
+          <li class="nav-item me-3">
+            <a class="nav-link" href="#career-support">Career Support</a>
+          </li>
+        </ul>
       </div>
-    </nav>
-    <!-- Carousel Part -->
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <ul class="carousel-indicators">
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active carousel-indictor"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          class="carousel-indictor"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          class="carousel-indictor"
-        ></li>
-        <li
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          class="carousel-indictor"
-        ></li>
-      </ul>
-      <div class="container slider-container carousel-inner">
-        <!-- First Slide -->
-        <div class="carousel-item active">
-          <section class="carousel-section d-flex align-items-center">
-            <div
-              class="carousel-content d-flex flex-column justify-content-center"
-            >
-              <div class="highlight">Empower your career</div>
-              <h1 class="carousel-title">
-                India’s Unique Software Engineering Institute
-              </h1>
-              <p class="carousel-subtitle">
-                We train you with life skill, communication skill, and software
-                engineering to empower your life.
-              </p>
-            </div>
-            <div class="carousel-image-container">
-              <img
-                src="images/slider/5.jpg"
-                alt="Hero Image"
-                class="img-fluid carousel-image"
-              />
-            </div>
-          </section>
-        </div>
-        <!-- Second Slide -->
-        <div class="carousel-item">
-          <section class="carousel-section d-flex align-items-center">
-            <div
-              class="carousel-content d-flex flex-column justify-content-center"
-            >
-              <div class="highlight">Learn and start earning</div>
-              <h1 class="carousel-title">Become Software Engineer</h1>
-              <p class="carousel-subtitle">
-                Spend 2 years with us and start earning from the 3rd year.
-              </p>
-            </div>
-            <div class="carousel-image-container">
-              <img
-                src="images/slider/2.jpg"
-                alt="Hero Image"
-                class="img-fluid carousel-image"
-              />
-            </div>
-          </section>
-        </div>
-        <!-- Third Slide -->
-        <div class="carousel-item">
-          <section class="carousel-section d-flex align-items-center">
-            <div
-              class="carousel-content d-flex flex-column justify-content-center"
-            >
-              <div class="highlight">Industry-relevant skills</div>
-              <h1 class="carousel-title">Learn with Industry Experts</h1>
-              <p class="carousel-subtitle">
-                Power ahead with industry-relevant skills from Industry Experts.
-              </p>
-            </div>
-            <div class="carousel-image-container">
-              <img
-                src="images/slider/3.jpg"
-                alt="Hero Image"
-                class="img-fluid carousel-image"
-              />
-            </div>
-          </section>
-        </div>
-
-        <!-- Fourth Slide -->
-        <div class="carousel-item">
-          <section class="carousel-section d-flex align-items-center">
-            <div
-              class="carousel-content d-flex flex-column justify-content-center"
-            >
-              <div class="highlight">Focus on real skills</div>
-              <h1 class="carousel-title">
-                Focus on real-world skills, not just academic credentials.
-              </h1>
-              <p class="carousel-subtitle">
-                Acquiring practical skills and hands-on experience over merely
-                focusing on academic qualifications or theoretical knowledge.
-              </p>
-            </div>
-            <div class="carousel-image-container">
-              <img
-                src="images/slider/4.jpg"
-                alt="Hero Image"
-                class="img-fluid carousel-image"
-              />
-            </div>
-          </section>
-        </div>
-      </div>
-      <!-- Next/previous buttons -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <img
-          src="/images/icons/left_arrow.png"
-          alt="left arrow image"
-          class="carousel-control-prev-icon"
-        />
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <img
-          src="/images/icons/right_arrow.png"
-          alt="left arrow image"
-          class="carousel-control-prev-icon"
-        />
-      </button>
     </div>
-    <!-- Our Mission Section -->
-    <div class="container col-md-9 py-5">
-      <div>
-        <div class="mission-title text-center">Our Mission</div>
-        <p class="custom-mission-text">
-          To empower <span class="mission-text">rural students</span> in India
-          by improving their
-          <span class="mission-text">English communication</span> skills and
-          train them with
-          <span class="mission-text">Emerging Technology.</span>
-        </p>
-        <div class="row">
-          <!-- Program 1 -->
-          <div class="our-program-title py-3">Our Programs</div>
+  </nav>
+  <!-- Carousel Part -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ul class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-indictor"></li>
+    </ul>
+    <div class="container slider-container carousel-inner">
+      <!-- First Slide -->
+      <div class="carousel-item active">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Empower your career</div>
+            <h1 class="carousel-title">
+              India’s Unique Software Engineering Institute
+            </h1>
+            <p class="carousel-subtitle">
+              We train you with life skill, communication skill, and software
+              engineering to empower your life.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/5.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+      <!-- Second Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Learn and start earning</div>
+            <h1 class="carousel-title">Become Software Engineer</h1>
+            <p class="carousel-subtitle">
+              Spend 2 years with us and start earning from the 3rd year.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/2.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+      <!-- Third Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Industry-relevant skills</div>
+            <h1 class="carousel-title">Learn with Industry Experts</h1>
+            <p class="carousel-subtitle">
+              Power ahead with industry-relevant skills from Industry Experts.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/3.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
 
-          <div class="col-md-6">
-            <div class="program-card">
-              <img
-                src="images/slider/2.jpg"
-                alt="Professional Diploma in Software Engineering"
-                class="program-image p-2"
-                height="300px"
-              />
-              <a href="#career-support"
-                ><button class="apply-btn">Apply</button></a
-              >
-              <div class="program-content">
-                <h4 class="program-title">
-                  Professional Diploma in Software Engineering
-                </h4>
-                <p class="program-duration">2 Year for Inter / 12th</p>
-                <button class="program-button">100% Job Guaranteed</button>
-              </div>
+      <!-- Fourth Slide -->
+      <div class="carousel-item">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Focus on real skills</div>
+            <h1 class="carousel-title">
+              Focus on real-world skills, not just academic credentials.
+            </h1>
+            <p class="carousel-subtitle">
+              Acquiring practical skills and hands-on experience over merely
+              focusing on academic qualifications or theoretical knowledge.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img src="images/slider/4.jpg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+    </div>
+    <!-- Next/previous buttons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <img src="/images/icons/left_arrow.png" alt="left arrow image" class="carousel-control-prev-icon" />
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <img src="/images/icons/right_arrow.png" alt="left arrow image" class="carousel-control-prev-icon" />
+    </button>
+  </div>
+  <!-- Our Mission Section -->
+  <div class="container col-md-9 py-5">
+    <div>
+      <div class="mission-title text-center">Our Mission</div>
+      <p class="custom-mission-text">
+        To empower <span class="mission-text">rural students</span> in India
+        by improving their
+        <span class="mission-text">English communication</span> skills and
+        train them with
+        <span class="mission-text">Emerging Technology.</span>
+      </p>
+      <div class="row">
+        <!-- Program 1 -->
+        <div class="our-program-title py-3">Our Programs</div>
+
+        <div class="col-md-6">
+          <div class="program-card">
+            <img src="images/slider/2.jpg" alt="Professional Diploma in Software Engineering" class="program-image p-2"
+              height="300px" />
+            <a href="#career-support"><button class="apply-btn">Apply</button></a>
+            <div class="program-content">
+              <h4 class="program-title">
+                Professional Diploma in Software Engineering
+              </h4>
+              <p class="program-duration">2 Year for Inter / 12th</p>
+              <button class="program-button">100% Job Guaranteed</button>
             </div>
           </div>
+        </div>
 
-          <!-- Program 2 -->
-          <div class="col-md-6 mb-4">
-            <div class="program-card">
-              <img
-                src="images/slider/2.jpg"
-                alt="Professional Diploma in Software Engineering"
-                class="program-image p-2"
-                height="300px"
-              />
-              <a href="#career-support"
-                ><button class="apply-btn">Apply</button></a
-              >
+        <!-- Program 2 -->
+        <div class="col-md-6 mb-4">
+          <div class="program-card">
+            <img src="images/slider/2.jpg" alt="Professional Diploma in Software Engineering" class="program-image p-2"
+              height="300px" />
+            <a href="#career-support"><button class="apply-btn">Apply</button></a>
 
-              <div class="program-content">
-                <h4 class="program-title">
-                  Professional Diploma in Software Engineering
-                </h4>
-                <p class="program-duration">
-                  1st Year for BA / BCA / BSc / BCom & BSc (IT)
-                </p>
-                <button class="program-button">100% Job Guaranteed</button>
-              </div>
+            <div class="program-content">
+              <h4 class="program-title">
+                Professional Diploma in Software Engineering
+              </h4>
+              <p class="program-duration">
+                1st Year for BA / BCA / BSc / BCom & BSc (IT)
+              </p>
+              <button class="program-button">100% Job Guaranteed</button>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- Our Number of employee and students section Section -->
-    <div class="container col-md-9 text-center">
-      <div class="mission-title">Your Success is Our Success</div>
-      <h1 class="future-control-title">
-        Take control of your future! Start your path to <br />becoming a
-        software engineer now.
-      </h1>
+  </div>
+  <!-- Our Number of employee and students section Section -->
+  <div class="container col-md-9 text-center">
+    <div class="mission-title">Your Success is Our Success</div>
+    <h1 class="future-control-title">
+      Take control of your future! Start your path to <br />becoming a
+      software engineer now.
+    </h1>
 
-      <div
-        class="justify-content-center d-flex flex-md-row gap-5 gap-md-6 mt-3 mission-title numberOfEmployee"
-      >
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">300+</span>
-          <span class="d-block student_numbers_text">Students and Alumni</span>
-        </div>
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">25+</span>
-          <span class="d-block student_numbers_text">Starting Salary</span>
-        </div>
-        <div class="stat-item">
-          <span class="d-block display-4 student_numbers">20+</span>
-          <span class="d-block student_numbers_text">Companies Hired</span>
-        </div>
+    <div class="justify-content-center d-flex flex-md-row gap-5 gap-md-6 mt-3 mission-title numberOfEmployee mt-3">
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">300+</span>
+        <span class="d-block student_numbers_text">Students and Alumni</span>
+      </div>
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">25+</span>
+        <span class="d-block student_numbers_text">Starting Salary</span>
+      </div>
+      <div class="stat-item">
+        <span class="d-block display-4 student_numbers">20+</span>
+        <span class="d-block student_numbers_text">Companies Hired</span>
       </div>
     </div>
-    <!-- Our Near to location section Section -->
-    <div class="container col-md-9 text-center">
-      <a name="contact-us"></a>
-      <div class="mission-title" style="padding-top: 10%">
-        we’re near to you
-      </div>
-      <h1 class="mb-5 fw-bold py-3 future-control-title">
-        Call us at +91 8709579455
-      </h1>
-      <!-- <h1 class="future-control-title">
+  </div>
+  <!-- Our Near to location section Section -->
+  <div class="container col-md-9 text-center">
+    <a name="contact-us"></a>
+    <div class="mission-title" style="padding-top: 10%">
+      we’re near to you
+    </div>
+    <h1 class="mb-5 fw-bold py-3 future-control-title">
+      Call us at +91 8709579455
+    </h1>
+    <!-- <h1 class="future-control-title">
         Become a Software Engineer Without Leaving <br />
         Your Village
       </h1> -->
-      <div
-        class="d-flex flex-column flex-md-row justify-content-center gap-md-6 mt-5 LocationNearTo"
-      >
-        <div class="location-item">
-          <div class="institute_location">Amnour</div>
-          <div class="location-1">
-            Amnour - Taraiya Road,<br />
-            Parshuram Pur, Rasulpur, Nautan,<br />
-            Amnour - 841401,<br />
-            Bihar
-          </div>
+    <div class="d-flex flex-column flex-md-row justify-content-center gap-md-6 mt-5 LocationNearTo">
+      <div class="location-item">
+        <div class="institute_location">Amnour</div>
+        <div class="location-1">
+          Amnour - Taraiya Road,<br />
+          Parshuram Pur, Rasulpur, Nautan,<br />
+          Amnour - 841401,<br />
+          Bihar
         </div>
-        <div class="location-item">
-          <div class="institute_location">Parsa</div>
-          <div class="location-1">
-            Near Hanuman Mandir,<br />
-            Patna - Parsa - Siwan Highway Rd,<br />
-            Parsa - 841219,<br />
-            Bihar
-          </div>
+      </div>
+      <div class="location-item">
+        <div class="institute_location">Parsa</div>
+        <div class="location-1">
+          Near Hanuman Mandir,<br />
+          Patna - Parsa - Siwan Highway Rd,<br />
+          Parsa - 841219,<br />
+          Bihar
         </div>
-        <div class="location-item">
-          <div class="institute_location">Patna</div>
-          <div class="location-1">
-            Near Doctors Colony,<br />
-            Rajendra Nagar,<br />
-            Patna - 800020,<br />
-            Bihar.
-          </div>
+      </div>
+      <div class="location-item">
+        <div class="institute_location">Patna</div>
+        <div class="location-1">
+          Near Doctors Colony,<br />
+          Rajendra Nagar,<br />
+          Patna - 800020,<br />
+          Bihar.
         </div>
       </div>
     </div>
-    <div class="container col-md-9" style="padding-top: 5%">
-      <a name="success-story"></a>
-      <h1 class="mission-title py-3 text-center">SUCCESS STORIES</h1>
-      <!-- Main Featured Story -->
-      <div class="d-flex justify-content-center align-items-center mb-5">
-        <div class="col-md-4">
-          <img
-            id="mainImage"
-            src="images/gallery/sudish.jpeg"
-            alt="Student"
-            class="story-img"
-          />
-        </div>
-        <div class="mx-2 stuimg_detels">
-          <div class="feature-story">FEATURE STORY</div>
-          <div id="studentName" class="studentName">Sudish Kumar</div>
-          <p id="studentCompany" class="text-muted">EduGaon, Amnour</p>
-          <a
-            id="studentLinkedin"
-            href="https://www.linkedin.com/in/sudishkumar/"
-            target="_blank"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-              alt="LinkedIn"
-              class="linkedin-icon"
-            />
-          </a>
-        </div>
+  </div>
+  <div class="container col-md-9" style="padding-top: 5%">
+    <a name="success-story"></a>
+    <h1 class="mission-title py-3 text-center">SUCCESS STORIES</h1>
+    <!-- Main Featured Story -->
+    <div class="d-flex justify-content-center align-items-center mb-5">
+      <div class="col-md-4">
+        <img id="mainImage" src="images/gallery/sudish.jpeg" alt="Student" class="story-img" />
       </div>
-      <!-- Thumbnail Carousel -->
-      <div
-        class="d-flex justify-content-center align-items-center thumbnail-box"
-      >
-        <span id="prevBtn"> </span>
-        <div class="d-flex overflow-auto mx-3 py-5 col-md-10" id="thumbnails">
-          <!-- Thumbnails will be generated here -->
-        </div>
-        <span id="nextBtn"> </span>
+      <div class="mx-2 stuimg_detels">
+        <div class="feature-story">FEATURE STORY</div>
+        <div id="studentName" class="studentName">Sudish Kumar</div>
+        <p id="studentCompany" class="text-muted">EduGaon, Amnour</p>
+        <a id="studentLinkedin" href="https://www.linkedin.com/in/sudishkumar/" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon" />
+        </a>
       </div>
     </div>
+    <!-- Thumbnail Carousel -->
+    <div class="d-flex justify-content-center align-items-center thumbnail-box">
+      <span id="prevBtn"> </span>
+      <div class="d-flex overflow-auto mx-3 py-5 col-md-10" id="thumbnails">
+        <!-- Thumbnails will be generated here -->
+      </div>
+      <span id="nextBtn"> </span>
+    </div>
+  </div>
 
-    <!-- video tags -->
-    <section>
-      <div class="student_success_main">
-        <div class="Student_Success_video">
-          <div id="testimonialCarousel" class="carousel slide">
-            <div class="carousel-inner">
-              <!-- First Slide -->
-              <div class="carousel-item active">
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="left-content" style="width: 50%">
-                    <h3>
-                      "I was able to restart my career with the Flutter Development and
-                      Software Engineering course"
-                    </h3>
-                    <p>
-                      EduGaon helped me put together an online portfolio
-                      of the projects I worked on...
-                    </p>
-                    <h5>Alfred Elver</h5>
-                    <span>Post Graduate Program in Data Science and Engineering</span>
-                  </div>
-                  <div class="right-content" style="width: 50%">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
-                      title="YouTube video player"
-                      frameborder="0"
+  <!-- video tags -->
+  <section>
+    <!-- Our Number of employee and students section Section -->
+    <div class="container col-md-9 text-center" style="margin-top: 100px;">
+      <div class="mission-title">watch here more about</div>
+      <h1 class="future-control-title">
+        Watcht how to learn and change their student them life <br> and earning the money.
+      </h1>
+    </div>
+    <div class="container-fluid student_success_main">
+      <div class="Student_Success_video">
+        <div id="testimonialCarousel" class="carousel slide p-5">
+          <div class="carousel-inner">
+            <!-- First Slide -->
+            <div class="carousel-item active">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-12 left-content">
+                  <h3>
+                    "What we Provide Our Lerners. How To We Tech Our Student And build Them Software Engineer In 1 Year and "
+                  </h3>
+                  <p>
+                    EduGaon helped me put together an online portfolio of the projects I worked on...
+                  </p>
+                  <h5>Alfred Elver</h5>
+                  <span>Post Graduate Program in Data Science and Engineering</span>
+                </div>
+                <div class="col-md-6 col-12 right-content">
+                  <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Lcy-6HnBw5c?feature=share"
+                      title="YouTube video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
+                      allowfullscreen></iframe>
+                    <div class="youtube-icon" onclick="playVideo(this)">
+                      <img src="images/icons/play.png" alt="youtube play icon" width="30px" height="30px" />
+                    </div>
+                    <img class="videoThumbnail" src="images/RahulSir.jpeg" alt="Video Thumbnail" />
+                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/Lcy-6HnBw5c" target="_blank">Watch on YouTube</a>
                   </div>
                 </div>
+                
               </div>
-    
-              <!-- Second Slide -->
-              <div class="carousel-item">
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="left-content" style="width: 50%">
-                    <h3>
-                      "Another success story of career transformation through EduGaon."
-                    </h3>
-                    <p>
-                      EduGaon helped me build an impressive online portfolio of projects.
-                    </p>
-                    <h5>John Doe</h5>
-                    <span>Flutter Development Program</span>
-                  </div>
-                  <div class="right-content" style="width: 50%">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/TKk-lJWvGdA?controls=1"
-                      title="YouTube Short video player"
-                      frameborder="0"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
+            </div>
+
+            <!-- Second Slide -->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-12 left-content">
+                  <h3>
+                    "Another success story of career transformation through EduGaon."
+                  </h3>
+                  <p>
+                    EduGaon helped me build an impressive online portfolio of projects.
+                  </p>
+                  <h5>John Doe</h5>
+                  <span>Flutter Development Program</span>
                 </div>
-              </div>
-    
-              <!-- Third Slide -->
-              <div class="carousel-item">
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="left-content" style="width: 50%">
-                    <h3>"Testimonial text here for another student learning Flutter Development"</h3>
-                    <p>Another success story goes here...</p>
-                    <h5>Jane Smith</h5>
-                    <span>Advanced Software Engineering Course</span>
-                  </div>
-                  <div class="right-content" style="width: 50%">
-                    <iframe
-                      width="100%"
-                      height="315"
-                      src="https://www.youtube.com/embed/aI-gaDrXPV4?controls=1"
-                      title="YouTube video player"
-                      frameborder="0"
+                <div class="col-md-6 col-12 right-content">
+                  <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/TKk-lJWvGdA?controls=1"
+                      title="YouTube Short video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                      allowfullscreen
-                    ></iframe>
-                  </div>
-                </div>
-              </div>
-    
-              <!-- Fourth Slide -->
-              <div class="carousel-item">
-                <div class="d-flex justify-content-center align-items-center">
-                  <div class="left-content" style="width: 50%">
-                    <h3>"More testimonial content about Flutter development courses"</h3>
-                    <p>Another successful student shares their experience.</p>
-                    <h5>Another Student</h5>
-                    <span>Software Development with Flutter</span>
-                  </div>
-                  <div class="right-content" style="width: 50%">
-                    <iframe
-                    width="100%"
-                    height="315"
-                    src="https://www.youtube.com/embed/mwdsJzMoVJM?controls=1"
-                    title="YouTube Short video player"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
-                    ></iframe>
+                      allowfullscreen></iframe>
+                    <div class="youtube-icon" onclick="playVideo(this)">
+                      <img src="images/icons/play.png" alt="youtube play icon" width="30px" height="30px" />
+                    </div>
+                    <img class="videoThumbnail" src="images/gallery/bobby.jpeg" alt="Video Thumbnail" />
+                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/TKk-lJWvGdA" target="_blank">Watch
+                      on YouTube</a>
                   </div>
                 </div>
               </div>
             </div>
-    
-            <!-- Controls -->
-            <a class="carousel-control-prev carousel-control-prev-video" href="#testimonialCarousel" role="button" data-bs-slide="prev">
-              <img src="/images/icons/left_arrow.png" alt="left arrow image" class="carousel-control-prev-icon" />
-            </a>
-            <a class="carousel-control-next carousel-control-next-video" href="#testimonialCarousel" role="button" data-bs-slide="next">
-              <img src="/images/icons/right_arrow.png" alt="right arrow image" class="carousel-control-prev-icon" />
-            </a>
-    
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" style="background-color: #000"></li>
-              <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1" style="background-color: #ff9900"></li>
-              <li data-bs-target="#testimonialCarousel" data-bs-slide-to="2" style="background-color: #ff9900"></li>
-              <li data-bs-target="#testimonialCarousel" data-bs-slide-to="3" style="background-color: #ff9900"></li>
-            </ol>
+
+            <!-- Third Slide -->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-12 left-content">
+                  <h3>
+                    "Testimonial text here for another student learning Flutter Development"
+                  </h3>
+                  <p>Another success story goes here...</p>
+                  <h5>Jane Smith</h5>
+                  <span>Advanced Software Engineering Course</span>
+                </div>
+                <div class="col-md-6 col-12 right-content">
+                  <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/aI-gaDrXPV4?controls=1"
+                      title="YouTube video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="youtube-icon" onclick="playVideo(this)">
+                      <img src="images/icons/play.png" alt="youtube play icon" width="30px" height="30px" />
+                    </div>
+                    <img class="videoThumbnail" src="images/gallery/ansar.jpeg" alt="Video Thumbnail" />
+                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/aI-gaDrXPV4" target="_blank">Watch
+                      on YouTube</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Fourth Slide -->
+            <div class="carousel-item">
+              <div class="row justify-content-center align-items-center">
+                <div class="col-md-6 col-12 left-content">
+                  <h3>
+                    "More testimonial content about Flutter development courses"
+                  </h3>
+                  <p>Another successful student shares their experience.</p>
+                  <h5>Another Student</h5>
+                  <span>Software Development with Flutter</span>
+                </div>
+                <div class="col-md-6 col-12 right-content">
+                  <div class="video-container">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/mwdsJzMoVJM?controls=1"
+                      title="YouTube Short video player" frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen></iframe>
+                    <div class="youtube-icon" onclick="playVideo(this)">
+                      <img src="images/icons/play.png" alt="youtube play icon" width="30px" height="30px" />
+                    </div>
+                    <img class="videoThumbnail" src="images/gallery/nehal.jpeg" alt="Video Thumbnail" />
+                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/mwdsJzMoVJM" target="_blank">Watch
+                      on YouTube</a>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
+
+          <!-- Controls -->
+          <a class="carousel-control-prev carousel-control-prev-video" href="#testimonialCarousel" role="button"
+            data-bs-slide="prev">
+            <img src="/images/icons/left_arrow.png" alt="left arrow image" class="carousel-control-prev-icon" />
+          </a>
+          <a class="carousel-control-next carousel-control-next-video" href="#testimonialCarousel" role="button"
+            data-bs-slide="next">
+            <img src="/images/icons/right_arrow.png" alt="right arrow image" class="carousel-control-next-icon" />
+          </a>
+
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"
+              style="background-color: #000"></li>
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="1" style="background-color: #ff9900"></li>
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="2" style="background-color: #ff9900"></li>
+            <li data-bs-target="#testimonialCarousel" data-bs-slide-to="3" style="background-color: #ff9900"></li>
+          </ol>
         </div>
       </div>
-    </section>
-    
-    
-
-    <section>
-      <div class="container col-md-9 py-3">
-        <p class="text-center" style="color: #ff9900">
-          Diverse Industries & Geographies
-        </p>
-
-        <div class="future-control-title enterprise-title">
-          Companies Trust EduGaon Learners
+    </div>
+  </section>
+  <!-- 2nd video -->
+  <section class="container col-md-9">
+    <h1 class="future-control-title text-center mb-5">
+      Inspiring stories of success from our learners
+    </h1>
+    <div class="row success-story2 mx-auto">
+      <!-- Responsive YouTube Video -->
+      <div class="col-md-3 col-12 stu_succ_video">
+        <div class="video-container">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
         </div>
-        <div class="logo-container">
-          <img src="images/cp_logo/1.jpeg" alt="cp_logo1" />
-          <img src="images/cp_logo/2.jpeg" alt="cp_logo2" />
-          <img src="images/cp_logo/3.jpeg" alt="cp_logo3" />
-          <img src="images/cp_logo/4.jpeg" alt="cp_logo4" />
-          <img src="images/cp_logo/5.jpeg" alt="cp_logo5" />
-          <img src="images/cp_logo/6.jpeg" alt="cp_logo6" />
-          <img src="images/cp_logo/7.jpeg" alt="cp_logo7" />
-          <img src="images/cp_logo/8.jpeg" alt="cp_logo8" />
-          <img src="images/cp_logo/9.jpeg" alt="cp_logo9" />
-          <img src="images/cp_logo/10.jpeg" alt="cp_logo10" />
-          <img src="images/cp_logo/11.jpeg" alt="cp_logo11" />
-          <img src="images/cp_logo/12.jpeg" alt="cp_logo12" />
-          <img src="images/cp_logo/13.jpeg" alt="cp_logo13" />
-          <!-- <img src="images/cp_logo/14.jpeg" alt="cp_logo14"> -->
-          <img src="images/cp_logo/15.jpeg" alt="cp_logo15" />
-          <img src="images/cp_logo/16.jpeg" alt="cp_logo16" />
-          <img src="images/cp_logo/17.jpeg" alt="cp_logo17" />
-          <img src="images/cp_logo/18.jpeg" alt="cp_logo18" />
-          <img src="images/cp_logo/19.jpeg" alt="cp_logo19" />
-          <img src="images/cp_logo/20.jpeg" alt="cp_logo20" />
-          <img src="images/cp_logo/21.jpeg" alt="cp_logo21" />
-          <img src="images/cp_logo/22.jpeg" alt="cp_logo22" />
-          <img src="images/cp_logo/23.jpeg" alt="cp_logo23" />
-          <img src="images/cp_logo/24.jpeg" alt="cp_logo24" />
-          <img src="images/cp_logo/25.jpeg" alt="cp_logo25" />
-          <img src="images/cp_logo/26.jpeg" alt="cp_logo26" />
-          <img src="images/cp_logo/27.jpeg" alt="cp_logo27" />
-          <img src="images/cp_logo/28.jpeg" alt="cp_logo28" />
-          <!-- <img src="images/cp_logo/29.jpeg" alt="cp_logo29">
+      </div>
+
+      <div class="col-md-7 col-12 d-flex flex-column justify-content-start align-items-start py-3 mx-4">
+        <div class="fetures_video_story mb-3">Featured Story</div>
+        <h3 class="mb-3">
+          I was able to pursue my dream career and move forward in my field.
+        </h3>
+
+        <div class="profile-video-desc mb-3">
+          <img src="/images/icons/profile.png" alt="profile" class="profile-icon me-2" />
+
+          <div class="name-cp-name">
+            <b>Priyanshu Kumar</b>
+            <p>PlayerzPot Media Pvt Ltd, Mumbai</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start">
+          <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
+          <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
+          <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
+          <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
+          <img src="/images/icons/star.png" alt="star" class="star-icon" />
+        </div>
+        <div class="py-1">
+          <a target="_blank" href="https://youtube.com/shorts/aI-gaDrXPV4?si=xdGnEyq8hScVNilT">
+            <img src="/images/icons/youtube.avif" alt="star" class="me-1" style="width: 150px" />
+          </a>
+          <a id="" href="https://www.linkedin.com/in/sudishkumar/" target="_blank">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="icon" height="50px"
+              width="50px" />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="future-control-title2 d-flex pb-4">
+      <h1 class="mx-5">Watch stories of success of our learners</h1>
+      <img src="/images/icons/left_arrow.png" alt="Previous" class="right_arrow" id="prevBtn" />
+      <img src="/images/icons/right_arrow.png" alt="Next" class="right_arrow" id="nextBtn" />
+    </div>
+  
+    <div class="success-story2-gallery mx-auto">
+      <!-- Video row with embedded YouTube videos -->
+      <div class="video-row" id="videoRow">
+        <div class="video-container-gallery">
+          <iframe src="https://www.youtube.com/embed/TKk-lJWvGdA?controls=1"
+                  title="YouTube video player" allowfullscreen></iframe>
+          <b>Guddu Kumar</b>
+        </div>
+        <div class="video-container-gallery">
+          <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
+                  title="YouTube video player" allowfullscreen></iframe>
+          <b>Guddu Kumar</b>
+        </div>
+        <div class="video-container-gallery">
+          <iframe src="https://www.youtube.com/embed/aI-gaDrXPV4?controls=1"
+                  title="YouTube video player" allowfullscreen></iframe>
+          <b>Nehal Babu</b>
+        </div>
+        <div class="video-container-gallery">
+          <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
+                  title="YouTube video player" allowfullscreen></iframe>
+          <b>Priyanshu Kumar</b>
+        </div>
+        <div class="video-container-gallery">
+          <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
+                  title="YouTube video player" allowfullscreen></iframe>
+          <b>Rahul Kumar</b>
+        </div>
+      </div>
+    </div>
+    
+  </section>
+
+
+  <section>
+    <div class="container col-md-9 py-3">
+      <p class="text-center" style="color: #ff9900">
+        Diverse Industries & Geographies
+      </p>
+
+      <div class="future-control-title enterprise-title">
+        Companies Trust EduGaon Learners
+      </div>
+      <div class="logo-container">
+        <img src="images/cp_logo/1.jpeg" alt="cp_logo1" />
+        <img src="images/cp_logo/2.jpeg" alt="cp_logo2" />
+        <img src="images/cp_logo/3.jpeg" alt="cp_logo3" />
+        <img src="images/cp_logo/4.jpeg" alt="cp_logo4" />
+        <img src="images/cp_logo/5.jpeg" alt="cp_logo5" />
+        <img src="images/cp_logo/6.jpeg" alt="cp_logo6" />
+        <img src="images/cp_logo/7.jpeg" alt="cp_logo7" />
+        <img src="images/cp_logo/8.jpeg" alt="cp_logo8" />
+        <img src="images/cp_logo/9.jpeg" alt="cp_logo9" />
+        <img src="images/cp_logo/10.jpeg" alt="cp_logo10" />
+        <img src="images/cp_logo/11.jpeg" alt="cp_logo11" />
+        <img src="images/cp_logo/12.jpeg" alt="cp_logo12" />
+        <img src="images/cp_logo/13.jpeg" alt="cp_logo13" />
+        <!-- <img src="images/cp_logo/14.jpeg" alt="cp_logo14"> -->
+        <img src="images/cp_logo/15.jpeg" alt="cp_logo15" />
+        <img src="images/cp_logo/16.jpeg" alt="cp_logo16" />
+        <img src="images/cp_logo/17.jpeg" alt="cp_logo17" />
+        <img src="images/cp_logo/18.jpeg" alt="cp_logo18" />
+        <img src="images/cp_logo/19.jpeg" alt="cp_logo19" />
+        <img src="images/cp_logo/20.jpeg" alt="cp_logo20" />
+        <img src="images/cp_logo/21.jpeg" alt="cp_logo21" />
+        <img src="images/cp_logo/22.jpeg" alt="cp_logo22" />
+        <img src="images/cp_logo/23.jpeg" alt="cp_logo23" />
+        <img src="images/cp_logo/24.jpeg" alt="cp_logo24" />
+        <img src="images/cp_logo/25.jpeg" alt="cp_logo25" />
+        <img src="images/cp_logo/26.jpeg" alt="cp_logo26" />
+        <img src="images/cp_logo/27.jpeg" alt="cp_logo27" />
+        <img src="images/cp_logo/28.jpeg" alt="cp_logo28" />
+        <!-- <img src="images/cp_logo/29.jpeg" alt="cp_logo29">
         <img src="images/cp_logo/30.jpeg" alt="cp_logo30">
         <img src="images/cp_logo/31.jpeg" alt="cp_logo31">
         <img src="images/cp_logo/32.jpeg" alt="cp_logo32">
         <img src="images/cp_logo/33.jpeg" alt="cp_logo33"> -->
-          <!-- <img src="images/cp_logo/34.jpeg" alt="cp_logo34">
+        <!-- <img src="images/cp_logo/34.jpeg" alt="cp_logo34">
         <img src="images/cp_logo/35.jpeg" alt="cp_logo35">
         <img src="images/cp_logo/36.jpeg" alt="cp_logo36">
         <img src="images/cp_logo/37.jpeg" alt="cp_logo37"> -->
-        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- <section>
+  <!-- <section>
   <div class="card col-md-9">
     Hello
   </div>
   
 </section> -->
 
-    <!-- Logo and Branding Section -->
-    <section class="text-center py-5">
-      <div class="container">
-        <h1 class="brand-title">EduGaon</h1>
-        <p class="brand-subtitle text-uppercase">Empowering rural students</p>
-      </div>
-    </section>
-    <!-- Form Section -->
-    <section class="text-center">
-      <a name="career-support"></a>
-      <div class="container">
-        <iframe
-          src="https://forms.fillout.com/t/4RsuHJEGs3us"
-          width="80%"
-          height="600px"
-        ></iframe>
-      </div>
-    </section>
-    <!-- Bootstrap JS scripts -->
-    <script src="script.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Logo and Branding Section -->
+  <section class="text-center py-5">
+    <div class="container">
+      <h1 class="brand-title">EduGaon</h1>
+      <p class="brand-subtitle text-uppercase">Empowering rural students</p>
+    </div>
+  </section>
+  <!-- Form Section -->
+  <section class="text-center">
+    <a name="career-support"></a>
+    <div class="container">
+      <iframe src="https://forms.fillout.com/t/4RsuHJEGs3us" width="80%" height="800px"></iframe>
+    </div>
+  </section>
+ 
+</body>
+ <!-- Bootstrap JS scripts -->
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+   integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+   crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+   integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+   crossorigin="anonymous"></script>
 
-    <!-- 4 october -->
-    <script type="module">
-      // Import the functions you need from the SDKs you need
-      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
-      import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
-      // TODO: Add SDKs for Firebase products that you want to use
-      // https://firebase.google.com/docs/web/setup#available-libraries
+ <!-- 4 october -->
+ <script type="module">
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+   // TODO: Add SDKs for Firebase products that you want to use
+   // https://firebase.google.com/docs/web/setup#available-libraries
 
-      // Your web app's Firebase configuration
-      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-      const firebaseConfig = {
-        apiKey: "AIzaSyCcu4HgJ199lVGzerG3NdMSHMplSri8MAc",
-        authDomain: "edugaon-web.firebaseapp.com",
-        projectId: "edugaon-web",
-        storageBucket: "edugaon-web.appspot.com",
-        messagingSenderId: "539125775885",
-        appId: "1:539125775885:web:3c975492484e9013591f44",
-        measurementId: "G-593MD5R2W0",
-      };
+   // Your web app's Firebase configuration
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   const firebaseConfig = {
+     apiKey: "AIzaSyCcu4HgJ199lVGzerG3NdMSHMplSri8MAc",
+     authDomain: "edugaon-web.firebaseapp.com",
+     projectId: "edugaon-web",
+     storageBucket: "edugaon-web.appspot.com",
+     messagingSenderId: "539125775885",
+     appId: "1:539125775885:web:3c975492484e9013591f44",
+     measurementId: "G-593MD5R2W0",
+   };
 
-      // Initialize Firebase
-      const app = initializeApp(firebaseConfig);
-      const analytics = getAnalytics(app);
-    </script>
-  </body>
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+   const analytics = getAnalytics(app);
+ </script>
 </html>

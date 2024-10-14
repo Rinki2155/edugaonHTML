@@ -257,10 +257,29 @@
   },
   {
     "id": 33,
-    "name": "Rahul Kumar",
-    "company": "SoftOne Tech Solutions pvt Ltd, New Delhi",
-    "linkedin": "https://www.linkedin.com/in/officilllrahul/",
-    "image": "images/thumb/rahul.jpeg",
-    "galleryImage": "images/gallery/rahul.jpeg"
+    "name": "Azim Ansari",
+    "company": "Mewar Palace Resort, Udaipur Rajasthan",
+    "linkedin": "https://www.linkedin.com/in/azim-ansari-a40b52303/",
+    "image": "images/thumb/azim.jpeg",
+    "galleryImage": "images/gallery/azim.jpeg"
   }
+  ,
+  {
+    "id": 34,
+    "name": "Azim Ansari",
+    "company": "Mewar Palace Resort, Udaipur Rajasthan",
+    "linkedin": "https://www.linkedin.com/in/azim-ansari-a40b52303/",
+    "image": "images/thumb/nausad.jpeg",
+    "galleryImage": "images/gallery/nausad.jpeg"
+  }
+  ,
+  {
+    "id": 35,
+    "name": "Dhiraj Kumar",
+    "company": "Mewar Palace Resort, Udaipur Rajasthan",
+    "linkedin": "https://www.linkedin.com/in/dheeraj-kumar-424750311/",
+    "image": "images/thumb/dhiraj.jpeg",
+    "galleryImage": "images/gallery/dhiraj.jpeg"
+  }
+
 ]
