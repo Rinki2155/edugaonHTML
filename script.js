@@ -140,6 +140,3 @@ window.addEventListener('resize', function() {
   currentIndex = 0;
   updateVideoPosition();
 });
-
-
-//for Rahul Sir Video 
