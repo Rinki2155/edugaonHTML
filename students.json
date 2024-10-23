@@ -262,17 +262,15 @@
     "linkedin": "https://www.linkedin.com/in/azim-ansari-a40b52303/",
     "image": "images/thumb/azim.jpeg",
     "galleryImage": "images/gallery/azim.jpeg"
-  }
-  ,
+  },
   {
     "id": 34,
-    "name": "Azim Ansari",
+    "name": "Naushad Alam",
     "company": "Mewar Palace Resort, Udaipur Rajasthan",
-    "linkedin": "https://www.linkedin.com/in/azim-ansari-a40b52303/",
+    "linkedin": "https://www.linkedin.com/in/naushad-alam-153b53303/",
     "image": "images/thumb/nausad.jpeg",
     "galleryImage": "images/gallery/nausad.jpeg"
-  }
-  ,
+  },
   {
     "id": 35,
     "name": "Dhiraj Kumar",
@@ -280,6 +278,61 @@
     "linkedin": "https://www.linkedin.com/in/dheeraj-kumar-424750311/",
     "image": "images/thumb/dhiraj.jpeg",
     "galleryImage": "images/gallery/dhiraj.jpeg"
+  },
+  {
+    "id": 36,
+    "name": "Aman Rizvi",
+    "company": "iB Arts Pvt. Ltd. Kolkata, West Bengal",
+    "linkedin": "https://www.linkedin.com/in/aman-rizvi-11738620a/",
+    "image": "images/thumb/aman.jpeg",
+    "galleryImage": "images/gallery/aman.jpeg"
+  },
+  {
+    "id": 37,
+    "name": "Akash kumar",
+    "company": "TechnoTronixs Pvt Ltd, Indore, Madhya Pradesh",
+    "linkedin": "https://www.linkedin.com/in/kumarakash01/",
+    "image": "images/thumb/akash2.jpeg",
+    "galleryImage": "images/gallery/akash2.jpeg"
+  },
+  {
+    "id": 38,
+    "name": "Anubhow Kumar",
+    "company": "Asyscraft Technologies Pvt. Ltd Delhi",
+    "linkedin": "https://www.linkedin.com/in/anubhow-kumar-flutter-developer-aa6446301/",
+    "image": "images/thumb/abhinow.jpeg",
+    "galleryImage": "images/gallery/abhinow.jpeg"
+  },
+  {
+    "id": 39,
+    "name": "Ahmad Raza",
+    "company": "KDS Tech Solutions Pvt. Ltd. Zirakpur, Punjab",
+    "linkedin": "https://www.linkedin.com/in/ahmad-raja-1a8a36323/",
+    "image": "images/thumb/ahmad.jpeg",
+    "galleryImage": "images/gallery/ahmad.jpeg"
+  },
+  {
+    "id": 40,
+    "name": "Pavan Kumar",
+    "company": "SKARDTECH Pvt. Ltd. Noida",
+    "linkedin": "https://www.linkedin.com/in/pawan-kumar-679010324/",
+    "image": "images/thumb/pavan.jpeg",
+    "galleryImage": "images/gallery/pavan.jpeg"
+  },
+  {
+    "id": 41,
+    "name": "Amarnath Singh",
+    "company": "HackerKernel Pvt. Ltd, Bhopal, Madhya Pradesh",
+    "linkedin": "https://www.linkedin.com/in/amarnath-singh/",
+    "image": "images/thumb/amarnath.jpeg",
+    "galleryImage": "images/gallery/amarnath.jpeg"
+  },
+  {
+    "id": 42,
+    "name": "Sakshi Singh",
+    "company": "Simplyfy Technocraft Pvt. Ltd, Delhi",
+    "linkedin": "https://www.linkedin.com/in/sakshi-singh-14499231a/",
+    "image": "images/thumb/sakshi.jpeg",
+    "galleryImage": "images/gallery/sakshi.jpeg"
   }
-
 ]

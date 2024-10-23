@@ -8,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style2.css">
   <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet" />
 </head>
 
@@ -254,13 +255,13 @@
     <!-- Main Featured Story -->
     <div class="d-flex justify-content-center align-items-center mb-5">
       <div class="col-md-4">
-        <img id="mainImage" src="images/gallery/sudish.jpeg" alt="Student" class="story-img" />
+        <img id="mainImage" src="images/gallery/sakshi.jpeg" alt="Student" class="story-img" />
       </div>
       <div class="mx-2 stuimg_detels">
         <div class="feature-story">FEATURE STORY</div>
-        <div id="studentName" class="studentName">Sudish Kumar</div>
-        <p id="studentCompany" class="text-muted">EduGaon, Amnour</p>
-        <a id="studentLinkedin" href="https://www.linkedin.com/in/sudishkumar/" target="_blank">
+        <div id="studentName" class="studentName">Sakshi Singh</div>
+        <p id="studentCompany" class="text-muted">Simplyfy Technocraft Pvt. Ltd, Delhi</p>
+        <a id="studentLinkedin" href="https://www.linkedin.com/in/sakshi-singh-14499231a/" target="_blank">
           <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" class="linkedin-icon" />
         </a>
       </div>
@@ -303,18 +304,18 @@
                 </div>
                 <div class="col-md-6 col-12 right-content">
                   <div class="video-container">
-                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/Lcy-6HnBw5c?feature=share"
                       title="YouTube video player" frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowfullscreen></iframe>
                     <div class="youtube-icon" onclick="playVideo(this)">
                       <img src="images/icons/play.png" alt="youtube play icon" width="30px" height="30px" />
                     </div>
-                    <img class="videoThumbnail" src="images/sir.png" alt="Video Thumbnail" />
-                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/Aj8glUS3zRk" target="_blank">Watch
-                      on YouTube</a>
+                    <img class="videoThumbnail" src="images/RahulSir.jpeg" alt="Video Thumbnail" />
+                    <a class="watch-on-youtube" href="https://www.youtube.com/shorts/Lcy-6HnBw5c" target="_blank">Watch on YouTube</a>
                   </div>
                 </div>
+                
               </div>
             </div>
 
@@ -484,33 +485,35 @@
     <div class="success-story2-gallery mx-auto">
       <!-- Video row with embedded YouTube videos -->
       <div class="video-row" id="videoRow">
-        <div class="video-container">
+        <div class="video-container-gallery">
           <iframe src="https://www.youtube.com/embed/TKk-lJWvGdA?controls=1"
                   title="YouTube video player" allowfullscreen></iframe>
           <b>Guddu Kumar</b>
         </div>
-        <div class="video-container">
+        <div class="video-container-gallery">
           <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
                   title="YouTube video player" allowfullscreen></iframe>
           <b>Guddu Kumar</b>
         </div>
-        <div class="video-container">
+        <div class="video-container-gallery">
           <iframe src="https://www.youtube.com/embed/aI-gaDrXPV4?controls=1"
                   title="YouTube video player" allowfullscreen></iframe>
           <b>Nehal Babu</b>
         </div>
-        <div class="video-container">
+        <div class="video-container-gallery">
           <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
                   title="YouTube video player" allowfullscreen></iframe>
           <b>Priyanshu Kumar</b>
         </div>
-        <div class="video-container">
+        <div class="video-container-gallery">
           <iframe src="https://www.youtube.com/embed/Aj8glUS3zRk?controls=1"
                   title="YouTube video player" allowfullscreen></iframe>
           <b>Rahul Kumar</b>
         </div>
       </div>
     </div>
+    
+    
   </section>
 
 
@@ -586,39 +589,39 @@
       <iframe src="https://forms.fillout.com/t/4RsuHJEGs3us" width="80%" height="800px"></iframe>
     </div>
   </section>
-  <!-- Bootstrap JS scripts -->
-  <script src="script.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-
-  <!-- 4 october -->
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyCcu4HgJ199lVGzerG3NdMSHMplSri8MAc",
-      authDomain: "edugaon-web.firebaseapp.com",
-      projectId: "edugaon-web",
-      storageBucket: "edugaon-web.appspot.com",
-      messagingSenderId: "539125775885",
-      appId: "1:539125775885:web:3c975492484e9013591f44",
-      measurementId: "G-593MD5R2W0",
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
+ 
 </body>
+ <!-- Bootstrap JS scripts -->
+ <script src="script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+   integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+   crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+   integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+   crossorigin="anonymous"></script>
 
+ <!-- 4 october -->
+ <script type="module">
+   // Import the functions you need from the SDKs you need
+   import { initializeApp } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-app.js";
+   import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.14.0/firebase-analytics.js";
+   // TODO: Add SDKs for Firebase products that you want to use
+   // https://firebase.google.com/docs/web/setup#available-libraries
+
+   // Your web app's Firebase configuration
+   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+   const firebaseConfig = {
+     apiKey: "AIzaSyCcu4HgJ199lVGzerG3NdMSHMplSri8MAc",
+     authDomain: "edugaon-web.firebaseapp.com",
+     projectId: "edugaon-web",
+     storageBucket: "edugaon-web.appspot.com",
+     messagingSenderId: "539125775885",
+     appId: "1:539125775885:web:3c975492484e9013591f44",
+     measurementId: "G-593MD5R2W0",
+   };
+
+   // Initialize Firebase
+   const app = initializeApp(firebaseConfig);
+   const analytics = getAnalytics(app);
+ </script>
 </html>
