@@ -764,14 +764,12 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
   margin-bottom: 30px;
 }
 
 .Student_Success_video {
   padding-top: 40px;
   width: 1220px;
-  background-color: rgba(0, 0, 0, .04);
   padding: 30px;
   border-radius: 10px;
   height: auto;
