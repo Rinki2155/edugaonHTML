@@ -141,48 +141,57 @@ const testimonials = [
     name: "Abhishek Kumar",
     company: "Dreamvessels Pvt Ltd, Noida",
     studentView: "The training I received helped me pursue my dream career effectively.",
+    linkdinId:"https://www.linkedin.com/in/abhishek-kumar-9926ba23b/",
   },
   {
     videoURL: "https://www.youtube.com/embed/mwdsJzMoVJM",
     name: "Nehal Babu",
     company: "Skylabs Solutions India Pvt Ltd, Noida",
     studentView: "This program guided me towards becoming a successful software engineer.",
+    linkdinId:"https://www.linkedin.com/in/inehalbabu/",
   },
   {
     videoURL: "https://www.youtube.com/embed/aI-gaDrXPV4",
     name: "Ansar Ali Shah",
     company: "Skylabs Solutions India Pvt Ltd, Noida",
     studentView: "I gained valuable skills that advanced my career.",
+    linkdinId:"https://www.linkedin.com/in/ansar-ali-shah-65686b222/",
   },
   {
     videoURL: "https://www.youtube.com/embed/Aj8glUS3zRk",
     name: "Priyanshu Kumar",
     company: "Seraphic Infosolutions, Punjab",
     studentView: "This program was key to my career growth and success.",
+    linkdinId:"https://www.linkedin.com/in/priyanshuray/",
   },
   {
     videoURL: "https://www.youtube.com/embed/PQ1sC99U6EY",
     name: "Krishna Kumar",
     company: "Lishbos Technologies, New Delhi",
     studentView: "The foundation I received here has been crucial for my career.",
+    linkdinId:"https://www.linkedin.com/in/krishanofficial/",
   },
   {
     videoURL: "https://www.youtube.com/embed/KeiTlTYohls",
     name: "Shubhankar Kumar",
     company: "IDLABELS & Solution Pvt Limited, New Delhi",
     studentView: "The mentorship helped me achieve my career goals.",
+    "linkdinId": "https://www.linkedin.com/in/kumar-shubhankar/",
+
   },
   {
     videoURL: "https://www.youtube.com/embed/TKk-lJWvGdA",
     name: "Bobby Kumar",
     company: "Versatile Prime Infosoft Pvt Ltd",
     studentView: "I enhanced my capabilities and advanced my career thanks to this program.",
+    "linkdinId": "https://www.linkedin.com/in/bornxbobby/",
   },
   {
     videoURL: "https://www.youtube.com/embed/S4YBa17qkLw",
     name: "Rahul Kumar",
     company: "SoftOne Tech Solutions Pvt Ltd, New Delhi",
     studentView: "This institution was vital for my career development and success.",
+    "linkdinId": "https://www.linkedin.com/in/officilllrahul/",
   },
   
   // Add more testimonials as needed
@@ -244,7 +253,7 @@ function generateVideoSlides() {
                   style="width: 150px"
                 />
               </a>
-              <a target="_blank" href="https://www.linkedin.com/in/sudishkumar/">
+              <a target="_blank" href=${testimonial.linkdinId}>
                 <img
                   src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                   alt="LinkedIn"
