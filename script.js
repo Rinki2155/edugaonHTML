@@ -133,6 +133,8 @@ window.addEventListener("resize", function () {
   currentIndex = 0;
   updateVideoPosition();
 });
+
+
 // for students success video
 // Data array for videos, names, and company details
 const testimonials = [
@@ -211,6 +213,7 @@ function generateVideoSlides() {
           <div class="col-md-3 col-12 stu_succ_video">
             <div class="video-container">
               <iframe
+              loading="lazy"
                 width="100%"
                 height="315"
                 src="${testimonial.videoURL}"
@@ -272,4 +275,7 @@ function generateVideoSlides() {
 }
 
 // Call the function to generate the video slides on page load
-window.onload = generateVideoSlides;
+document.addEventListener("DOMContentLoaded", () => {
+  fetchStudentData();
+  generateVideoSlides();
+});

@@ -12,9 +12,18 @@
     />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="style2.css" />
+    <link rel="stylesheet" href="style.min.css" />
+    <link rel="stylesheet" href="style2.min.css" />
+    <meta http-equiv="Cache-Control" content="max-age=31536000, public" />
+
     <link
       href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
       rel="stylesheet"
+    />
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
+      as="style"
     />
   </head>
 
@@ -23,7 +32,7 @@
       <div class="container">
         <div>
           <h1 class="navbar-brand">EduGaon</h1>
-          <p class="brand-subtitle text-uppercase">Empowering rural students</p>
+          <p class="brand-subtitle text-uppercase">Empowering Rural Students</p>
         </div>
         <!-- <div class="logobox">Empowering rural students</div> -->
         <button
@@ -67,7 +76,7 @@
     >
       <ul class="carousel-indicators">
         <li
-          data-bs-target="#carouselExampleIndicators"
+          data-bs-target="#carouselExampleIndica<tors"
           data-bs-slide-to="0"
           class="active carousel-indictor"
         ></li>
@@ -105,6 +114,7 @@
             </div>
             <div class="carousel-image-container">
               <img
+                loading="lazy"
                 src="images/slider/5.jpg"
                 alt="Hero Image"
                 class="img-fluid carousel-image"
@@ -126,6 +136,7 @@
             </div>
             <div class="carousel-image-container">
               <img
+                loading="lazy"
                 src="images/slider/2.jpg"
                 alt="Hero Image"
                 class="img-fluid carousel-image"
@@ -147,6 +158,7 @@
             </div>
             <div class="carousel-image-container">
               <img
+                loading="lazy"
                 src="images/slider/3.jpg"
                 alt="Hero Image"
                 class="img-fluid carousel-image"
@@ -172,6 +184,7 @@
             </div>
             <div class="carousel-image-container">
               <img
+                loading="lazy"
                 src="images/slider/4.jpg"
                 alt="Hero Image"
                 class="img-fluid carousel-image"
@@ -188,6 +201,7 @@
         data-bs-slide="prev"
       >
         <img
+          loading="lazy"
           src="/images/icons/left_arrow.png"
           alt="left arrow image"
           class="carousel-control-prev-icon"
@@ -200,6 +214,7 @@
         data-bs-slide="next"
       >
         <img
+          loading="lazy"
           src="/images/icons/right_arrow.png"
           alt="left arrow image"
           class="carousel-control-prev-icon"
@@ -211,9 +226,9 @@
       <div>
         <div class="mission-title text-center">Our Mission</div>
         <p class="custom-mission-text">
-          To empower <span class="mission-text">rural students</span> in India
+          To empower <span class="mission-text">Rural Students</span> in India
           by improving their
-          <span class="mission-text">English communication</span> skills and
+          <span class="mission-text">English Communication</span> skills and
           train them with
           <span class="mission-text">Emerging Technology.</span>
         </p>
@@ -224,6 +239,7 @@
           <div class="col-md-6">
             <div class="program-card">
               <img
+                loading="lazy"
                 src="images/slider/2.jpg"
                 alt="Professional Diploma in Software Engineering"
                 class="program-image p-2"
@@ -246,6 +262,7 @@
           <div class="col-md-6 mb-4">
             <div class="program-card">
               <img
+                loading="lazy"
                 src="images/slider/2.jpg"
                 alt="Professional Diploma in Software Engineering"
                 class="program-image p-2"
@@ -346,6 +363,7 @@
       <div class="d-flex justify-content-center align-items-center mb-5">
         <div class="col-md-4">
           <img
+            loading="lazy"
             id="mainImage"
             src="images/gallery/sakshi.jpeg"
             alt="Student"
@@ -364,6 +382,7 @@
             target="_blank"
           >
             <img
+              loading="lazy"
               src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
               alt="LinkedIn"
               class="linkedin-icon"
@@ -388,14 +407,18 @@
           Inspiring stories of success from our learners
         </h1>
       </div>
-      
+
       <div class="student_success_main">
         <div class="Student_Success_video">
-          <div id="testimonialCarousel" class="carousel slide p-5" data-bs-ride="carousel">
+          <div
+            id="testimonialCarousel"
+            class="carousel slide p-5"
+            data-bs-ride="carousel"
+          >
             <div class="carousel-inner" id="carouselItemsContainer">
               <!-- JavaScript dynamically content add karega yahan par -->
             </div>
-    
+
             <!-- Controls -->
             <a
               class="carousel-control-prev carousel-control-prev-video"
@@ -404,6 +427,7 @@
               data-bs-slide="prev"
             >
               <img
+                loading="lazy"
                 src="/images/icons/left_arrow.png"
                 alt="left arrow image"
                 class="carousel-control-prev-icon"
@@ -416,17 +440,17 @@
               data-bs-slide="next"
             >
               <img
+                loading="lazy"
                 src="/images/icons/right_arrow.png"
                 alt="right arrow image"
                 class="carousel-control-next-icon"
               />
             </a>
-  
           </div>
         </div>
       </div>
     </section>
-    
+
     <section>
       <div class="container col-md-9 py-3">
         <p class="text-center" style="color: #ff9900">
@@ -437,46 +461,46 @@
           Companies Trust EduGaon Learners
         </div>
         <div class="logo-container">
-          <img src="images/cp_logo/1.jpeg" alt="cp_logo1" />
-          <img src="images/cp_logo/2.jpeg" alt="cp_logo2" />
-          <img src="images/cp_logo/3.jpeg" alt="cp_logo3" />
-          <img src="images/cp_logo/4.jpeg" alt="cp_logo4" />
-          <img src="images/cp_logo/5.jpeg" alt="cp_logo5" />
-          <img src="images/cp_logo/6.jpeg" alt="cp_logo6" />
-          <img src="images/cp_logo/7.jpeg" alt="cp_logo7" />
-          <img src="images/cp_logo/8.jpeg" alt="cp_logo8" />
-          <img src="images/cp_logo/9.jpeg" alt="cp_logo9" />
-          <img src="images/cp_logo/10.jpeg" alt="cp_logo10" />
-          <img src="images/cp_logo/11.jpeg" alt="cp_logo11" />
-          <img src="images/cp_logo/12.jpeg" alt="cp_logo12" />
-          <img src="images/cp_logo/13.jpeg" alt="cp_logo13" />
-          <img src="images/cp_logo/14.jpeg" alt="cp_logo14" />
-          <img src="images/cp_logo/15.jpeg" alt="cp_logo15" />
-          <img src="images/cp_logo/16.jpeg" alt="cp_logo16" />
-          <img src="images/cp_logo/17.jpeg" alt="cp_logo17" />
-          <img src="images/cp_logo/18.jpeg" alt="cp_logo18" />
-          <img src="images/cp_logo/19.jpeg" alt="cp_logo19" />
-          <img src="images/cp_logo/20.jpeg" alt="cp_logo20" />
-          <img src="images/cp_logo/21.jpeg" alt="cp_logo21" />
-          <img src="images/cp_logo/22.jpeg" alt="cp_logo22" />
-          <img src="images/cp_logo/23.jpeg" alt="cp_logo23" />
-          <img src="images/cp_logo/24.jpeg" alt="cp_logo24" />
-          <img src="images/cp_logo/25.jpeg" alt="cp_logo25" />
-          <img src="images/cp_logo/26.jpeg" alt="cp_logo26" />
-          <img src="images/cp_logo/27.jpeg" alt="cp_logo27" />
-          <img src="images/cp_logo/28.jpeg" alt="cp_logo28" />
-          <img src="images/cp_logo/36.jpeg" alt="cp_logo36" />
-          <img src="images/cp_logo/37.jpeg" alt="cp_logo37" />
-          <img src="images/cp_logo/38.jpeg" alt="cp_logo38" />
-          <img src="images/cp_logo/39.jpeg" alt="cp_logo39" />
+          <img src="images/cp_logo/1.jpeg" loading="lazy" alt="cp_logo1" />
+          <img src="images/cp_logo/2.jpeg" loading="lazy" alt="cp_logo2" />
+          <img src="images/cp_logo/3.jpeg" loading="lazy" alt="cp_logo3" />
+          <img src="images/cp_logo/4.jpeg" loading="lazy" alt="cp_logo4" />
+          <img src="images/cp_logo/5.jpeg" loading="lazy" alt="cp_logo5" />
+          <img src="images/cp_logo/6.jpeg" loading="lazy" alt="cp_logo6" />
+          <img src="images/cp_logo/7.jpeg" loading="lazy" alt="cp_logo7" />
+          <img src="images/cp_logo/8.jpeg" loading="lazy" alt="cp_logo8" />
+          <img src="images/cp_logo/9.jpeg" loading="lazy" alt="cp_logo9" />
+          <img src="images/cp_logo/10.jpeg" loading="lazy" alt="cp_logo10" />
+          <img src="images/cp_logo/11.jpeg" loading="lazy" alt="cp_logo11" />
+          <img src="images/cp_logo/12.jpeg" loading="lazy" alt="cp_logo12" />
+          <img src="images/cp_logo/13.jpeg" loading="lazy" alt="cp_logo13" />
+          <img src="images/cp_logo/14.jpeg" loading="lazy" alt="cp_logo14" />
+          <img src="images/cp_logo/15.jpeg" loading="lazy" alt="cp_logo15" />
+          <img src="images/cp_logo/16.jpeg" loading="lazy" alt="cp_logo16" />
+          <img src="images/cp_logo/17.jpeg" loading="lazy" alt="cp_logo17" />
+          <img src="images/cp_logo/18.jpeg" loading="lazy" alt="cp_logo18" />
+          <img src="images/cp_logo/19.jpeg" loading="lazy" alt="cp_logo19" />
+          <img src="images/cp_logo/20.jpeg" loading="lazy" alt="cp_logo20" />
+          <img src="images/cp_logo/21.jpeg" loading="lazy" alt="cp_logo21" />
+          <img src="images/cp_logo/22.jpeg" loading="lazy" alt="cp_logo22" />
+          <img src="images/cp_logo/23.jpeg" loading="lazy" alt="cp_logo23" />
+          <img src="images/cp_logo/24.jpeg" loading="lazy" alt="cp_logo24" />
+          <img src="images/cp_logo/25.jpeg" loading="lazy" alt="cp_logo25" />
+          <img src="images/cp_logo/26.jpeg" loading="lazy" alt="cp_logo26" />
+          <img src="images/cp_logo/27.jpeg" loading="lazy" alt="cp_logo27" />
+          <img src="images/cp_logo/28.jpeg" loading="lazy" alt="cp_logo28" />
+          <img src="images/cp_logo/36.jpeg" loading="lazy" alt="cp_logo36" />
+          <img src="images/cp_logo/37.jpeg" loading="lazy" alt="cp_logo37" />
+          <img src="images/cp_logo/38.jpeg" loading="lazy" alt="cp_logo38" />
+          <img src="images/cp_logo/39.jpeg" loading="lazy" alt="cp_logo39" />
 
-          <img src="images/cp_logo/29.jpeg" alt="cp_logo29" />
-          <img src="images/cp_logo/30.jpeg" alt="cp_logo30" />
-          <img src="images/cp_logo/31.jpeg" alt="cp_logo31" />
-          <img src="images/cp_logo/32.jpeg" alt="cp_logo32" />
-          <img src="images/cp_logo/33.jpeg" alt="cp_logo33" />
-          <img src="images/cp_logo/34.jpeg" alt="cp_logo34" />
-          <img src="images/cp_logo/35.jpeg" alt="cp_logo35" />
+          <img src="images/cp_logo/29.jpeg" loading="lazy" alt="cp_logo29" />
+          <img src="images/cp_logo/30.jpeg" loading="lazy" alt="cp_logo30" />
+          <img src="images/cp_logo/31.jpeg" loading="lazy" alt="cp_logo31" />
+          <img src="images/cp_logo/32.jpeg" loading="lazy" alt="cp_logo32" />
+          <img src="images/cp_logo/33.jpeg" loading="lazy" alt="cp_logo33" />
+          <img src="images/cp_logo/34.jpeg" loading="lazy" alt="cp_logo34" />
+          <img src="images/cp_logo/35.jpeg" loading="lazy" alt="cp_logo35" />
         </div>
       </div>
     </section>
@@ -500,6 +524,7 @@
       <a name="career-support"></a>
       <div class="container">
         <iframe
+          loading="lazy"
           src="https://forms.fillout.com/t/4RsuHJEGs3us"
           width="80%"
           height="800px"
@@ -544,4 +569,8 @@
     const app = initializeApp(firebaseConfig);
     const analytics = getAnalytics(app);
   </script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    defer
+  ></script>
 </html>
