@@ -16,9 +16,10 @@ document.querySelectorAll(".navbar-nav a").forEach((link) => {
   });
 });
 
-// Update the feature section with selected student data
 let students = [];
 let startIndex = 0;
+
+// Fetch student data
 const fetchStudentData = async () => {
   try {
     const response = await fetch("students.json");
@@ -31,7 +32,7 @@ const fetchStudentData = async () => {
   }
 };
 
-// Update the main featured story
+
 const updateMainStory = (student) => {
   document.getElementById("mainImage").src = student.galleryImage; // Use galleryImage here
   document.getElementById("studentName").textContent = student.name;
@@ -39,7 +40,8 @@ const updateMainStory = (student) => {
   document.getElementById("studentLinkedin").href = student.linkedin;
 };
 
-// Initialize the carousel
+
+
 const initializeCarousel = () => {
   const thumbnails = document.getElementById("thumbnails");
   thumbnails.innerHTML = "";
@@ -47,13 +49,24 @@ const initializeCarousel = () => {
 
   slice.forEach((student) => {
     const thumbnail = document.createElement("img");
-    thumbnail.src = student.image; // Use image for thumbnails
+    thumbnail.src = student.image;
     thumbnail.alt = student.name;
     thumbnail.classList.add("thumbnail-img", "me-2");
-    thumbnail.addEventListener("click", () => updateMainStory(student));
+    thumbnail.addEventListener("click", () => openModal(student));
     thumbnails.appendChild(thumbnail);
   });
 };
+
+const openModal = (student) => {
+  document.getElementById("modalImage").src = student.galleryImage;
+  document.getElementById("modalStudentName").textContent = student.name;
+  document.getElementById("modalStudentCompany").textContent = student.company;
+  document.getElementById("modalStudentLinkedin").href = student.linkedin;
+
+  const modal = new bootstrap.Modal(document.getElementById("imageModal"));
+  modal.show();
+};
+
 
 // Show previous students in the carousel
 const showPrevious = () => {
@@ -63,6 +76,7 @@ const showPrevious = () => {
   }
 };
 
+
 // Show next students in the carousel
 const showNext = () => {
   if (startIndex + 7 < students.length) {
@@ -71,6 +85,7 @@ const showNext = () => {
     initializeCarousel();
   }
 };
+
 
 // Event listeners for next and previous buttons
 document.getElementById("prevBtn").addEventListener("click", showPrevious);
