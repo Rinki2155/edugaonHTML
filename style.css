@@ -478,19 +478,19 @@ p {
     display: none;
   }
   .carousel-item:nth-child(1) .carousel-section {
-    background-image: url("images/slider/5.jpg");
+    background-image: url("images/slider/8.png");
   }
 
   .carousel-item:nth-child(2) .carousel-section {
-    background-image: url("images/slider/2.jpg");
+    background-image: url("images/slider/slider2.png");
   }
 
   .carousel-item:nth-child(3) .carousel-section {
-    background-image: url("images/slider/3.jpg");
+    background-image: url("images/slider/slider1.png");
   }
 
   .carousel-item:nth-child(4) .carousel-section {
-    background-image: url("images/slider/4.jpg");
+    background-image: url("images/slider/slider3.jpg");
   }
   .carousel-title {
     color: white;
