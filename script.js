@@ -246,7 +246,7 @@ function generateVideoSlides() {
             </h3>
             <div class="profile-video-desc mb-3">
               <img
-                src="/images/icons/profile.png"
+                src="/images/icons/profile.jpeg"
                 alt="profile"
                 class="profile-icon me-2"
               />
@@ -256,11 +256,11 @@ function generateVideoSlides() {
               </div>
             </div>
             <div class="d-flex justify-content-start">
-              <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.png" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.png" alt="star" class="star-icon" />
+              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img src="/images/icons/star.jpeg" alt="star" class="star-icon" />
             </div>
             <div class="py-1">
               <a target="_blank" href="${testimonial.videoURL}">
