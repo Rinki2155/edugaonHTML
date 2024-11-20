@@ -120,6 +120,7 @@ h3 b {
 
 
 .tech-stack-item {
+  height: 180px;
   border: 2px solid #eaeaea;
   border-radius: 10px;
   padding: 20px;
