@@ -150,6 +150,102 @@ window.addEventListener("resize", function () {
 });
 
 
+document.addEventListener("DOMContentLoaded", () => {
+  const carousel = document.getElementById("testimonialCarousel"); // Get the carousel element
+  const carouselInstance = new bootstrap.Carousel(carousel); // Bootstrap carousel instance
+  let playingVideo = null; // Track the currently playing video
+
+  // Function to stop a video
+  const stopVideo = (iframe) => {
+    if (iframe) {
+      iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', "*");
+    }
+  };
+
+  // Function to handle video playback
+  const handleVideoPlay = (iframe) => {
+    // Pause the carousel
+    carouselInstance.pause();
+
+    // Stop any previously playing video
+    if (playingVideo && playingVideo !== iframe) {
+      stopVideo(playingVideo);
+    }
+
+    // Update the currently playing video
+    playingVideo = iframe;
+  };
+
+  // Stop the video when the carousel slide changes
+  carousel.addEventListener("slid.bs.carousel", () => {
+    if (playingVideo) {
+      stopVideo(playingVideo);
+      playingVideo = null;
+    }
+  });
+
+  // Stop the video when navigating manually
+  const navButtons = document.querySelectorAll(".carousel-control-prev, .carousel-control-next");
+  navButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+      if (playingVideo) {
+        stopVideo(playingVideo);
+        playingVideo = null;
+      }
+    });
+  });
+
+  // Add event listeners to iframe videos
+  const iframes = document.querySelectorAll(".video-container iframe");
+  iframes.forEach((iframe) => {
+    iframe.src += "?enablejsapi=1"; // Enable YouTube API
+    iframe.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', "*"); // Stop video initially
+
+    // Listen to YouTube player events
+    window.addEventListener("message", (event) => {
+      if (event.data && typeof event.data === "string") {
+        try {
+          const message = JSON.parse(event.data);
+
+          // Play event
+          if (message.event === "play" && event.source === iframe.contentWindow) {
+            handleVideoPlay(iframe);
+          }
+
+          // Pause or End event
+          if (message.event === "pause" || message.event === "ended") {
+            if (event.source === iframe.contentWindow) {
+              playingVideo = null;
+              carouselInstance.cycle(); // Resume the carousel
+            }
+          }
+        } catch (e) {
+          console.error("Error handling message:", e);
+        }
+      }
+    });
+  });
+});
+
+
+
+
+
+
+// Function to pause all videos except the one being played
+const pauseAllVideosExcept = (currentIframe) => {
+  const iframes = document.querySelectorAll(".video-container iframe"); // Select all iframes
+  iframes.forEach((iframe) => {
+    if (iframe !== currentIframe) {
+      // Stop other videos using YouTube API
+      iframe.contentWindow.postMessage('{"event":"command","func":"stopVideo","args":""}', "*");
+    }
+  });
+};
+
+// Call the function to generate the video slides on page load
+
+
 // for students success video
 // Data array for videos, names, and company details
 const testimonials = [
@@ -289,8 +385,8 @@ function generateVideoSlides() {
   });
 }
 
-// Call the function to generate the video slides on page load
 document.addEventListener("DOMContentLoaded", () => {
   fetchStudentData();
   generateVideoSlides();
+  handleVideoBehavior(); // Ensure the behavior is initialized
 });

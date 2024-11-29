@@ -334,5 +334,23 @@
     "linkedin": "https://www.linkedin.com/in/sakshi-singh-14499231a/",
     "image": "images/thumb/sakshi.jpeg",
     "galleryImage": "images/gallery/sakshi.jpeg"
+  },
+
+  {
+    "id": 43,
+    "name": "Aman Kumar",
+    "company": "BQI TECHNOLOGY Pvt. Ltd, Gurugaon",
+    "linkedin": "https://www.linkedin.com/in/aman-kumar-04ak/",
+    "image": "images/thumb/amanAmnour.jpeg",
+    "galleryImage": "images/gallery/amanAmnour.jpeg"
+  }, 
+ 
+   {
+    "id": 45,
+    "name": "Kajal Gupta",
+    "company": "DHWANI ASTROLOGY LLP Pvt Ltd, Delhi",
+    "linkedin": "https://www.linkedin.com/in/kajal-gupta-b5b3712b6/",
+    "image": "images/thumb/kajal.jpeg",
+    "galleryImage": "images/gallery/kajal.jpeg"
   }
 ]
