@@ -344,7 +344,14 @@
     "image": "images/thumb/amanAmnour.jpeg",
     "galleryImage": "images/gallery/amanAmnour.jpeg"
   }, 
- 
+  {
+    "id": 43,
+    "name": "Rahul Kumar",
+    "company": "RR FIN CO Pvt. Ltd, Kankarbagh,Patna",
+    "linkedin": "https://www.linkedin.com/in/officilllrahul/",
+    "image": "images/thumb/Rahul2.jpeg",
+    "galleryImage": "images/gallery/Rahul2.jpeg"
+  },
    {
     "id": 45,
     "name": "Kajal Gupta",
