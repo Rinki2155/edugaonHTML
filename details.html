@@ -10,60 +10,46 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="details.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
       rel="stylesheet"
     />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <title>Details Page</title>
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <div>
-          <h1 class="navbar-brand"><a href="/">EduGaon</a></h1>
-          <p class="brand-subtitle text-uppercase">Empowering rural students</p>
-        </div>
-        <!-- <div class="logobox">Empowering rural students</div> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-            <li class="nav-item dynamic-years me-4">
-              <a href="/" class="dynamic-years" id="yearsCount">6</a
-              ><sup class="yrs"> yrs</sup>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="/index.html#success-story"
-                >Success Story</a
-              >
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="/index.html#contact-us">Contact Us</a>
-            </li>
 
-            <li class="nav-item me-3">
-              <a class="nav-link" href="/details.html">Details Page</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="/index.html#career-support"
-                >Career Support</a
-              >
-            </li>
-          </ul>
+
+    <section>
+      <div class="table-container shadow">
+        <div class="table-header">
+          <h1><b>Scholarship Exam Result</b></h1>
         </div>
+        <table class="table table-striped text-center">
+          <thead>
+            <tr>
+              <!-- <th>Id</th> -->
+              <th>Name</th>
+              <th>Total Marks</th>
+              <th>Marks</th>
+              <th>Score</th>
+              <th>Discount</th>
+            </tr>
+          </thead>
+          <tbody id="student-table">
+          </tbody>
+        </table>
+
+
+
+
+
+        
       </div>
-    </nav>
+    </section>
+
+
 
     <div class="container mt-5">
       <a name="details-page"></a>
@@ -264,255 +250,10 @@
       </div>
     </section>
 
-    <!-- previous code -->
-    <!-- 
-    <section>
-      <div
-        class="container d-flex text-center align-items-center justify-content-center"
-      >
-        <div class="row g-3 col-md-10">
-          <div class="col-sm-6 col-md-6">
-            <div class="course text-left py-5">
-              <h3 class="font-bold tech-title">Tech stack</h3>
-              <p>
-                Discover career paths that truly resonate with your passion &
-                explore <br />
-                mentorship programs that align perfectly with you.
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3 box">
-            <div class="course-box">
-              <img
-                src="images/icons/flutter.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Flutter App Development<br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/dart.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Dart Development <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/android.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Android App Development <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/javascript.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              JavaScript <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/kotlin.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Kotlin <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/typescript.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              TypeScript <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/react.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              React JS <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/node.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Node JS <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/express.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Express JS <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/angular.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Angular.JS <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/bootstrap.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Bootstrap <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/html.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              HTML/CSS <br />
-            </div>
-          </div>
-
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/material.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Material UI <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/tailwind.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Tailwind CSS <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/laravel.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Laravel <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/php.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              PHP <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/mysql.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              MySql <br />
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <div class="course-box">
-              <img
-                src="images/icons/mongodb.jpeg"
-                alt="icon"
-                class="course-icons mb-3"
-              /><br />
-              Mango DB <br />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="container py-5">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <h1>Become The Software Engineer with Our Resources</h1>
-          <p>
-            Engage and excel with our diverse collection of free learning
-            resources, from quizzes to e-books and interactive challenges -
-            designed to lift your career at zero cost!
-          </p>
-          <a href="#" class="btn btn-primary">Explore Now</a>
-        </div>
-
-        <div class="col-md-6 position-relative">
-          <div class="text-center mb-4">
-            <div class="resource-icon">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="40"
-                height="40"
-                fill="currentColor"
-                class="bi bi-file-earmark-text"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M5.5 8a.5.5 0 0 1 0-1h5a.5.5 0 0 1 0 1h-5zM5 10.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-.5 2a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5z"
-                />
-                <path
-                  d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3-.5a.5.5 0 0 1-.5-.5V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V5h-2.5z"
-                />
-              </svg>
-            </div>
-          </div>
-
-          <div class="d-flex flex-column align-items-start">
-            <div class="resource-item">Interview Bites</div>
-            <div class="resource-item">Quizzes</div>
-            <div class="resource-item">Articles</div>
-            <div class="resource-item">eBooks</div>
-            <div class="resource-item">Interactive Challenges</div>
-            <div class="resource-item">Courses</div>
-            <div class="resource-item">Tools</div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
+   
     <!-- Bootstrap JS scripts -->
-    <script src="script.js"></script>
+    <script src="script1.js"></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
       integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
@@ -525,3 +266,14 @@
     ></script>
   </body>
 </html>
+
+
+<!-- ,
+  {
+    "id": 46,
+    "name": "Rohit Kumar",
+    "company": "RS Top Coder Pvt Ltd, Noida",
+    "linkedin": "https://www.linkedin.com/in/rohit-kumar-ba19b0323/",
+    "image": "images/thumb/Mantu.jpeg",
+    "galleryImage": "images/gallery/mantu.jpeg"
+  } -->

@@ -345,7 +345,7 @@
     "galleryImage": "images/gallery/amanAmnour.jpeg"
   }, 
   {
-    "id": 43,
+    "id": 44,
     "name": "Rahul Kumar",
     "company": "RR FIN CO Pvt. Ltd, Kankarbagh,Patna",
     "linkedin": "https://www.linkedin.com/in/officilllrahul/",
@@ -359,5 +359,14 @@
     "linkedin": "https://www.linkedin.com/in/kajal-gupta-b5b3712b6/",
     "image": "images/thumb/kajal.jpeg",
     "galleryImage": "images/gallery/kajal.jpeg"
+  },
+  {
+    "id": 46,
+    "name": "Mantu Kumar",
+    "company": "RS Top Coder Pvt Ltd, Noida",
+    "linkedin": "https://www.linkedin.com/in/mantu-kumar-6b03bb2a5/",
+    "image": "images/thumb/Mantu.jpeg",
+    "galleryImage": "images/gallery/mantu.jpeg"
   }
+  
 ]

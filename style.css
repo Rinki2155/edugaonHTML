@@ -16,7 +16,7 @@ body {
 }
 .navbar {
   color: white;
-  background: linear-gradient(90deg, #ff512f, #f09819);
+  background: linear-gradient(90deg, #ff3131, #ff914d);
 }
 .navbar-brand {
   font-size: 35px;
@@ -55,7 +55,18 @@ body {
 .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
-
+.table-container {
+  margin: 50px auto;
+  max-width: 900px;
+}
+.table-header {
+  background: linear-gradient(to right, #ff512f, #f09819);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
 .carousel-title {
   font-size: 41;
   font-weight: bold;
@@ -483,18 +494,21 @@ p {
     display: none;
   }
   .carousel-item:nth-child(1) .carousel-section {
+    background-image: url("images/slider/9.jpeg");
+  }
+  .carousel-item:nth-child(2) .carousel-section {
     background-image: url("images/slider/3.jpeg");
   }
 
-  .carousel-item:nth-child(2) .carousel-section {
+  .carousel-item:nth-child(3) .carousel-section {
     background-image: url("images/slider/4.jpeg");
   }
 
-  .carousel-item:nth-child(3) .carousel-section {
+  .carousel-item:nth-child(4) .carousel-section {
     background-image: url("images/slider/1.jpeg");
   }
 
-  .carousel-item:nth-child(4) .carousel-section {
+  .carousel-item:nth-child(5) .carousel-section {
     background-image: url("images/slider/2.jpeg");
   }
   .carousel-title {
@@ -1121,7 +1135,6 @@ margin: auto;}
   padding: 10px;
 }
 }
-
 .timo {
   display: flex;
   justify-content: space-between;
@@ -1228,6 +1241,7 @@ h3 b {
 
 
 .tech-stack-item {
+  height: 180px;
   border: 2px solid #eaeaea;
   border-radius: 10px;
   padding: 20px;
@@ -1248,4 +1262,24 @@ h3 b {
 .tech-stack-item h6 {
   font-size: 16px;
   margin: 0;
+}
+/* Scholarship Exam Result  */
+ .table-container {
+  margin: 50px auto;
+  max-width: 1200px;
+}
+@media (max-width: 768px) {
+  .table-container {
+    padding-left: 7px;
+    padding-right: 7px;
+    
+  }
+}
+.table-header {
+  background: linear-gradient(to right, #ff3131, #ff914d);
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }

@@ -11,12 +11,13 @@
   <link rel="stylesheet" href="style.min.css" />
   <link rel="stylesheet" href="style2.min.css" />
   <meta http-equiv="Cache-Control" content="max-age=31536000, public" />
-
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
   <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet" />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" as="style" />
 </head>
 
 <body>
+  <!-- navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <div>
@@ -40,10 +41,10 @@
             <a class="nav-link" href="#contact-us">Contact Us</a>
           </li>
           <!-- <li class="nav-item me-3">
-              <a class="nav-link" href="/details.html"
-                >Details Page</a
-              >
-            </li> -->
+            <a class="nav-link" href="./details.html"
+              >Details Page</a
+            >
+          </li> -->
           <li class="nav-item me-3">
             <a class="nav-link" href="#career-support">Career Support</a>
           </li>
@@ -52,16 +53,37 @@
     </div>
   </nav>
   <!-- Carousel Part -->
+   <!-- crousel link redirect to Result page -->
+   <a href="./result.html" style="text-decoration: none; color: #000;">
+
   <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
     <ul class="carousel-indicators">
       <li data-bs-target="#carouselExampleIndica<tors" data-bs-slide-to="0" class="active carousel-indictor"></li>
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="carousel-indictor"></li>
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="carousel-indictor"></li>
       <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="carousel-indictor"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="carousel-indictor"></li>
+
     </ul>
     <div class="container slider-container carousel-inner">
       <!-- First Slide -->
       <div class="carousel-item active">
+        <section class="carousel-section d-flex align-items-center">
+          <div class="carousel-content d-flex flex-column justify-content-center">
+            <div class="highlight">Check your result</div>
+            <h1 class="carousel-title">
+              Scholarship Exam Result Update
+            </h1>
+            <p class="carousel-subtitle">
+              Check your result here! Discover what you scored and unlock exclusive offers. Click now to find out!.
+            </p>
+          </div>
+          <div class="carousel-image-container">
+            <img loading="lazy" src="images/slider/9.jpeg" alt="Hero Image" class="img-fluid carousel-image" />
+          </div>
+        </section>
+      </div>
+      <div class="carousel-item">
         <section class="carousel-section d-flex align-items-center">
           <div class="carousel-content d-flex flex-column justify-content-center">
             <div class="highlight">Empower your career</div>
@@ -128,6 +150,8 @@
         </section>
       </div>
     </div>
+    </div>
+   </a>
     <!-- Next/previous buttons -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
       data-bs-slide="prev">
@@ -554,13 +578,6 @@
       </div>
     </div>
   </section>
-
-  <!-- <section>
-  <div class="card col-md-9">
-    Hello
-  </div>
-  
-</section> -->
 
   <!-- Logo and Branding Section -->
   <section class="text-center py-5">
