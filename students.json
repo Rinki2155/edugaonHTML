@@ -365,8 +365,17 @@
     "name": "Mantu Kumar",
     "company": "RS Top Coder Pvt Ltd, Noida",
     "linkedin": "https://www.linkedin.com/in/mantu-kumar-6b03bb2a5/",
-    "image": "images/thumb/Mantu.jpeg",
+    "image": "images/thumb/mantu.jpeg",
     "galleryImage": "images/gallery/mantu.jpeg"
-  }
+  },
+  {
+    "id": 47,
+    "name": "Rohit Kumar",
+    "company": "Rashi Entertainment Pvt.Ltd, New Delhi",
+    "linkedin": "https://www.linkedin.com/in/rohit-kumar-ba19b0323/",
+    "image": "images/thumb/Rohit.jpeg",
+    "galleryImage": "images/gallery/Rohit.jpeg"
+  } 
+
   
 ]

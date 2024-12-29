@@ -4,504 +4,621 @@
     "Name": "Anisha Kumari",
     "Marks": 18,
     "Total_Marks": 40,
-    "Percentage": "45%",
-    "Course_fees": 5000
+    "Percentage": "45",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 2,
     "Name": "Kamni Kumar",
     "Marks": 13,
     "Total_Marks": 40,
-    "Percentage": "32.50%",
-    "Course_fees": 5000
+    "Percentage": "32.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 3,
     "Name": "Priya Kumari",
     "Marks": 19,
     "Total_Marks": 40,
-    "Percentage": "47.50%",
-    "Course_fees": 5000
+    "Percentage": "47.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 4,
     "Name": "Priya Kumari",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.50%",
-    "Course_fees": 55000
+    "Percentage": "62.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 5,
     "Name": "Nikki Kumari",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 6,
     "Name": "Saloni Kumari",
     "Marks": 40,
     "Total_Marks": 40,
-    "Percentage": "47.50%",
-    "Course_fees": 5000
+    "Percentage": "47.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 7,
     "Name": "Priyam Kumari",
     "Marks": 27,
     "Total_Marks": 40,
-    "Percentage": "67.50%",
-    "Course_fees": 55000
+    "Percentage": "67.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 8,
     "Name": "Varsha Kumari ",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.50%",
-    "Course_fees": 5000
+    "Percentage": "52.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 9,
     "Name": "Simran Kumari",
     "Marks": 27,
     "Total_Marks": 40,
-    "Percentage": "67.50%",
-    "Course_fees": 55000
+    "Percentage": "67.50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 10,
     "Name": "Tausif Kausar",
     "Marks": 33,
     "Total_Marks": 40,
-    "Percentage": "82.5%",
-    "Course_fees": 35000
+    "Percentage": "82.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 11,
     "Name": "Krishna Kumar",
     "Marks": 31,
     "Total_Marks": 40,
-    "Percentage": "77.5%",
-    "Course_fees": 45000
+    "Percentage": "77.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 12,
     "Name": "Ritik Kumar",
     "Marks": 28,
     "Total_Marks": 40,
-    "Percentage": "70%",
-    "Course_fees": 45000
+    "Percentage": "70",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 13,
     "Name": "Chandan Kumar",
     "Marks": 20,
     "Total_Marks": 40,
-    "Percentage": "50%",
-    "Course_fees": 5000
+    "Percentage": "50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 14,
     "Name": "Kamal Kumar",
     "Marks": 30,
     "Total_Marks": 40,
-    "Percentage": "75%",
-    "Course_fees": 45000
+    "Percentage": "75",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 15,
     "Name": "Rohit Kumar",
     "Marks": 28,
     "Total_Marks": 40,
-    "Percentage": "70%",
-    "Course_fees": 45000
+    "Percentage": "70",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 16,
     "Name": "Khurshid alam",
     "Marks": 31,
     "Total_Marks": 40,
-    "Percentage": "75.2%",
-    "Course_fees": 45000
+    "Percentage": "75.2",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 17,
     "Name": "Suraj Kumar",
     "Marks": 29,
     "Total_Marks": 40,
-    "Percentage": "72.5%",
-    "Course_fees": 45000
+    "Percentage": "72.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 18,
     "Name": "Moni Kumari",
     "Marks": 24,
     "Total_Marks": 40,
-    "Percentage": "60%",
-    "Course_fees": 55000
+    "Percentage": "60",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 19,
     "Name": "Neha Kumari",
     "Marks": 26,
     "Total_Marks": 40,
-    "Percentage": "65%",
-    "Course_fees": 55000
+    "Percentage": "65",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 20,
     "Name": "Nilesh Kumar",
     "Marks": 12,
     "Total_Marks": 40,
-    "Percentage": "30%",
-    "Course_fees": 5000
+    "Percentage": "30",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 21,
     "Name": "Kishan kumar",
     "Marks": 14,
     "Total_Marks": 40,
-    "Percentage": "35%",
-    "Course_fees": 5000
+    "Percentage": "35",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 22,
     "Name": "shital Kumari",
     "Marks": 20,
     "Total_Marks": 40,
-    "Percentage": "50%",
-    "Course_fees": 5000
+    "Percentage": "50",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 23,
-    "Name": "Ankit Kumari",
+    "Name": "Ankit Kumar",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 24,
     "Name": "Sharawan Gupta",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 25,
     "Name": "Vivek Kumar yadev",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 26,
     "Name": "Karan Kumar",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 27,
     "Name": "Aditya Kumar",
     "Marks": 28,
     "Total_Marks": 40,
-    "Percentage": "70%",
-    "Course_fees": 45000
+    "Percentage": "70",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 28,
     "Name": "Sandeep Kumar",
     "Marks": 26,
     "Total_Marks": 40,
-    "Percentage": "65%",
-    "Course_fees": 55000
+    "Percentage": "65",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 29,
     "Name": "Khushi Singh",
     "Marks": 27,
     "Total_Marks": 40,
-    "Percentage": "67.5%",
-    "Course_fees": 55000
+    "Percentage": "67.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 30,
     "Name": "Karina Kumari",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 31,
     "Name": "Chandani Kumari",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
-  },
-  {
-    "id": 32,
-    "Name": "Pintu Kumar",
-    "Marks": 22,
-    "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 33,
     "Name": "Vikash Kumar",
     "Marks": 16,
     "Total_Marks": 40,
-    "Percentage": "40%",
-    "Course_fees": 5000
+    "Percentage": "40",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 34,
     "Name": "Pintu Kumar",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 35,
     "Name": "Sakshi Kumari",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 36,
     "Name": "Khushi Kumari",
     "Marks": 19,
     "Total_Marks": 40,
-    "Percentage": "47.5%",
-    "Course_fees": 5000
+    "Percentage": "47.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 37,
     "Name": "MD Imran Ali",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 38,
     "Name": "Alka Kumari",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 39,
     "Name": "Manisha Kumari",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 40,
     "Name": "Rohit Kumar",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 41,
     "Name": "Dhananjay Kumar",
     "Marks": 40,
     "Total_Marks": 40,
-    "Percentage": "40%",
-    "Course_fees": 55000
+    "Percentage": "40",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 42,
     "Name": "Sahil Singh",
     "Marks": 40,
     "Total_Marks": 40,
-    "Percentage": "65%",
-    "Course_fees": 55000
+    "Percentage": "65",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 43,
     "Name": "Anjali Kumari",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 44,
     "Name": "Nibha Kumari",
     "Marks": 27,
     "Total_Marks": 40,
-    "Percentage": "67.5%",
-    "Course_fees": 55000
+    "Percentage": "67.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 45,
     "Name": "Niki Kumari",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 46,
     "Name": "Ashish Kumar",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 47,
     "Name": "Sunny Kumar",
     "Marks": 40,
     "Total_Marks": 40,
-    "Percentage": "70%",
-    "Course_fees": 45000
+    "Percentage": "70",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 48,
     "Name": "Jhunni Khatun",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 49,
     "Name": "Anu Kumari",
     "Marks": 19,
     "Total_Marks": 40,
-    "Percentage": "47.5%",
-    "Course_fees": 5000
+    "Percentage": "47.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 50,
     "Name": "Sujay Kumar",
     "Marks": 19,
     "Total_Marks": 40,
-    "Percentage": "47.5%",
-    "Course_fees": 5000
+    "Percentage": "47.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 51,
     "Name": "Khushi Khatun",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
+
   {
     "id": 52,
     "Name": "Anand Kumar",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 53,
     "Name": "Anjali Kumari",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 54,
     "Name": "Mansi Kumar",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 55,
     "Name": "Sahil Hussain",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 56,
     "Name": "Nitesh Kumar",
     "Marks": 24,
     "Total_Marks": 40,
-    "Percentage": "60%",
-    "Course_fees": 55000
+    "Percentage": "60",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 57,
     "Name": "Saurabh Kumar",
     "Marks": 17,
     "Total_Marks": 40,
-    "Percentage": "42.5%",
-    "Course_fees": 5000
+    "Percentage": "42.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 58,
     "Name": "Sonu Kumari",
     "Marks": 12,
     "Total_Marks": 40,
-    "Percentage": "30%",
-    "Course_fees": 5000
+    "Percentage": "30",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 59,
     "Name": "Jashi Kumari",
     "Marks": 18,
     "Total_Marks": 40,
-    "Percentage": "45%",
-    "Course_fees": 5000
+    "Percentage": "45",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 60,
     "Name": "Heena Singh",
     "Marks": 32,
     "Total_Marks": 40,
-    "Percentage": "80%",
-    "Course_fees": 35000
+    "Percentage": "80",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 61,
     "Name": "Saloni Kumari",
     "Marks": 24,
     "Total_Marks": 40,
-    "Percentage": "60%",
-    "Course_fees": 55000
+    "Percentage": "60",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 62,
     "Name": "Ankesh Kumar",
     "Marks": 23,
     "Total_Marks": 40,
-    "Percentage": "57.5%",
-    "Course_fees": 5000
+    "Percentage": "57.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 63,
     "Name": "Mahfuj Ansari",
     "Marks": 21,
     "Total_Marks": 40,
-    "Percentage": "52.5%",
-    "Course_fees": 5000
+    "Percentage": "52.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
 
   {
@@ -509,71 +626,89 @@
     "Name": "Nausad Ali",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 65,
     "Name": "Raunak Kumar",
     "Marks": 26,
     "Total_Marks": 40,
-    "Percentage": "65%",
-    "Course_fees": 55000
+    "Percentage": "65",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 66,
     "Name": "Prince Kumar",
     "Marks": 22,
     "Total_Marks": 40,
-    "Percentage": "55%",
-    "Course_fees": 5000
+    "Percentage": "55",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 67,
     "Name": "Niraj Kumar",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 68,
     "Name": "Pankaj Kumar",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 69,
     "Name": "Arman Ansari",
     "Marks": 25,
     "Total_Marks": 40,
-    "Percentage": "62.5%",
-    "Course_fees": 55000
+    "Percentage": "62.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 70,
     "Name": "Prince Kumar",
     "Marks": 27,
     "Total_Marks": 40,
-    "Percentage": "67.5%",
-    "Course_fees": 55000
+    "Percentage": "67.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 71,
     "Name": "Kajal Kumari",
     "Marks": 18,
     "Total_Marks": 40,
-    "Percentage": "45%",
-    "Course_fees": 5000
+    "Percentage": "45",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   },
   {
     "id": 72,
     "Name": "Raushan Kumar",
     "Marks": 29,
     "Total_Marks": 40,
-    "Percentage": "72.5%",
-    "Course_fees": 45000
+    "Percentage": "72.5",
+    "Course_fees": "",
+    "Discount": "",
+    "Pay": ""
   }
 ]

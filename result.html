@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
       rel="stylesheet"
     />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
     <title>Result Page</title>
   </head>
 
@@ -26,20 +26,30 @@
           <p class="brand-subtitle text-uppercase">Empowering Rural Students</p>
         </div>
         <!-- <div class="logobox">Empowering rural students</div> -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
             <li class="nav-item dynamic-years me-4">
-              <a href="/" class="dynamic-years" id="yearsCount">6</a><sup class="yrs"> yrs</sup>
+              <a href="/" class="dynamic-years" id="yearsCount">6</a
+              ><sup class="yrs"> yrs</sup>
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#success-story">Success Story</a>
+              <a class="nav-link" href="/index.html#success-story"
+                >Success Story</a
+              >
             </li>
             <li class="nav-item me-3">
-              <a class="nav-link" href="#contact-us">Contact Us</a>
+              <a class="nav-link" href="/index.html#contact-us">Contact Us</a>
             </li>
             <!-- <li class="nav-item me-3">
                 <a class="nav-link" href="./details.html"
@@ -47,7 +57,9 @@
                 >
               </li> -->
             <li class="nav-item me-3">
-              <a class="nav-link" href="#career-support">Career Support</a>
+              <a class="nav-link" href="/index.html#career-support"
+                >Career Support</a
+              >
             </li>
           </ul>
         </div>
@@ -59,6 +71,7 @@
         <div class="table-header">
           <h1><b>Scholarship Exam Result</b></h1>
         </div>
+        <div class="table-responsive">
         <table class="table table-striped text-center">
           <thead>
             <tr>
@@ -68,19 +81,16 @@
               <th>Marks</th>
               <th>Score</th>
               <th>Course fees</th>
+              <th>Discount</th>
+              <th>Pay</th>
             </tr>
           </thead>
-          <tbody id="student-table">
-          </tbody>
+          <tbody id="student-table"></tbody>
         </table>
-
-
-
-
-
-        
+        </div>
       </div>
     </section>
+
     <!-- Bootstrap JS scripts -->
     <script src="hook.js" defer></script>
 
