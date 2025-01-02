@@ -1,457 +1,482 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="style.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
-    <title>Details Page</title>
-  </head>
 
-  <body>
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-      <div class="container">
-        <div>
-          <h1 class="navbar-brand"><a href="/">EduGaon</a></h1>
-          <p class="brand-subtitle text-uppercase">Empowering Rural Students</p>
-        </div>
-        <!-- <div class="logobox">Empowering rural students</div> -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
-            <li class="nav-item dynamic-years me-4">
-              <a href="/" class="dynamic-years" id="yearsCount">6</a
-              ><sup class="yrs"> yrs</sup>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#success-story">Success Story</a>
-            </li>
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#contact-us">Contact Us</a>
-            </li>
-            <!-- <li class="nav-item me-3">
-            <a class="nav-link" href="./details.html"
-              >Details Page</a
-            >
-          </li> -->
-            <li class="nav-item me-3">
-              <a class="nav-link" href="#career-support">Career Support</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container mt-5">
-      <a name="details-page"></a>
-      <div class="row">
-        <!-- Left Side Text -->
-        <div class="col-md-7">
-          <div class="card1">
-            <div class="card-body">
-              <div
-                class="badge job_percentage text-dark text-uppercase px-3 py-2"
-              >
-                100% Job Guaranteed
-              </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=More+Sugar&display=swap" rel="stylesheet" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <title>Details Page</title>
+</head>
 
-              <h1 class="mt-5">
-                Professional Diploma in <br />
-                Software Engineering
-              </h1>
-              <ul class="list-unstyled">
-                <li class="dimand_skill mb-3 py-3">
-                  <strong>In-Demand Skills:</strong> Learn the most industry
-                  relevant skills in the tech <br />
-                  industry (App Development, PWA Development, Microservices and
-                  UI/UX)
-                </li>
-                <li class="dimand_skill mb-3 py-2">
-                  <strong>Personalise Mentorship:</strong> Learn from industry
-                  professionals <br />
-                  and personalise support from EduGaon mentors
-                </li>
-                <li>
-                  <div class="d-flex timo">
-                    <div class="Eligibility">
-                      <span class="star-text">Duration</span><br />
-                      <h3><b>2 Years</b></h3>
-                    </div>
-                    <div class="Eligibility">
-                      <span class="star-text">Eligibility</span><br />
-                      <h3><b>Inter</b></h3>
-                    </div>
-                    <div class="Eligibility">
-                      <span class="star-text">Fess</span><br />
-                      <h3><b>70, 000</b></h3>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-
-              <!-- CTA buttons -->
-              <div class="cta-buttons">
-                <a href="#" class="btn btn-outline-secondary">Enquire Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Right Side Image -->
-        <div class="col-md-5">
-          <img
-            src="images/1.jpg"
-            class="img-fluiddetails rounded img-fluid"
-            alt="Flutter Developer Image"
-          />
-        </div>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <div>
+        <h1 class="navbar-brand"><a href="/">EduGaon</a></h1>
+        <p class="brand-subtitle text-uppercase">Empowering Rural Students</p>
+      </div> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+          class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex align-items-center">
+          <li class="nav-item dynamic-years me-4"> <a href="/" class="dynamic-years" id="yearsCount">6</a><sup
+              class="yrs"> yrs</sup> </li>
+          <li class="nav-item me-3"> <a class="nav-link" href="#success-story">Success Story</a> </li>
+          <li class="nav-item me-3"> <a class="nav-link" href="#contact-us">Contact Us</a> </li>
+          <li class="nav-item me-3"> <a class="nav-link" href="./details.html">Details Page</a> </li>
+          <li class="nav-item me-3"> <a class="nav-link" href="#career-support">Career Support</a> </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <section class="container mt-5 py-3 text-center">
-      <div class="container col-md-9 text-center">
-        <div class="mission-title text-uppercase">
-          focus on learning not on teaching
-        </div>
-        <h1 class="future-control-title">Learn with Real World Projects</h1>
-      </div>
-    </section>
 
-    <section class="container py-4">
-      <div class="row">
-        <div class="col-md-10 mx-auto">
-          <h2 class="fundamentals-title py-2">Fundamentals of Programming</h2>
-          <p class="fundamentals-details">
-            This course introduces the basics of programming, covering essential
-            concepts like variables, control structures, data types, functions,
-            and object-oriented programming. It lays the foundation for writing
-            efficient and error-free code.
-          </p>
+  <div class="container mt-5">
+    <a name="details-page"></a>
+    <div class="row">
+      <!-- Left Side Text -->
+      <div class="col-md-7">
+        <div class="card1">
+          <div class="card-body">
+            <div class="badge job_percentage text-dark text-uppercase px-3 py-2">
+              100% Job Guaranteed
+            </div>
 
-          <h5>Topics Covered</h5>
-          <ul class="topics-list">
-            <li class="topic-lists">Web Design and Development</li>
-            <li class="topic-lists">PHP & MySQL</li>
-            <li class="topic-lists">Android App</li>
-            <li class="topic-lists">Flutter App Development</li>
-            <li class="topic-lists">Web App Develop</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <div class="container tech-stack-section">
-      <div class="container d-flex align-items-center justify-content-center">
-        <div class="row g-4 col-md-10">
-          <div class="col-md-6 col-sm-6">
-            <h1 class="tech-stack-title">Tech stack</h1>
-            <p class="tech-stack-description">
-              Discover career paths that truly resonate with your passion &
-              explore mentorship programs that align perfectly with you.
-            </p>
-          </div>
-          <!-- Card 5 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/flutter.png" alt="Flutter" />
-              <h6>Flutter</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 6 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/android.png" alt="Android" />
-              <h6>Android</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 1 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/next.jpg" alt="NextJS" />
-              <h6>NextJS</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/node.png" alt="NodeJS" />
-              <h6>NodeJS</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 3 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/firebase.png" alt="Firebase" />
-              <h6>Firebase</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 4 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/api.jpg" alt="API Developer" />
-              <h6>API Developer</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-
-          <!-- Card 7 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/javascript.png" alt="JavaScript" />
-              <h6>JavaScript</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 8 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/kotlin.jpg" alt="Kotlin" />
-              <h6>Kotlin</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 9 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/php.png" alt="PHP" />
-              <h6>PHP</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-          <!-- Card 10 -->
-          <div class="col-md-3 col-sm-6">
-            <div class="tech-stack-item">
-              <img src="images/subIcon/dart.png" alt="Dart" />
-              <h6>Dart</h6>
-              <p>For mobile app development For mobile app</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <section class="container mt-5 py-3 text-center">
-      <div class="container col-md-9 text-center">
-        <div class="mission-title text-uppercase">
-          <!-- focus on learning not on teaching -->
-        </div>
-        <h1 class="future-control-title">
-          Empowering Future Innovators with Cutting-Edge Software Education
-        </h1>
-        <p class="text-muted text-left">
-          At EduGaon, we are committed to shaping the next generation of tech
-          professionals through our industry-focused software training programs.
-          Our institute stands apart for its innovative approach, combining peer
-          learning methodologies, monthly assessments, and hands-on experience
-          with the latest technologies. We believe that practical exposure is
-          the key to mastering software skills. That’s why, after completing our
-          rigorous 6-month training programs, students are provided with
-          comprehensive internships to apply their knowledge in real-world
-          scenarios. Our dedicated placement team ensures students are
-          well-prepared to launch their careers by assisting with job
-          applications and conducting extensive preparation sessions. With a
-          proven track record of success, we aim to turn your aspirations into
-          reality by equipping you with the skills needed to thrive in today’s
-          competitive tech landscape.
-        </p>
-      </div>
-    </section>
-    <section>
-      <div class="container details_container">
-        <div class="row">
-          <div class="col-md-6">
-            <img
-              class="details_image"
-              loading="lazy"
-              src="images/slider/4.jpeg"
-              alt="image"
-              srcset="for details"
-            />
-          </div>
-          <div class="col-md-6">
-            <img
-              class="details_image"
-              loading="lazy"
-              src="images/slider/4.jpeg"
-              alt="image"
-              srcset="for details"
-            />
-          </div>
-        </div>
-      </div>
-    </section>
-    <section>
-      <div class="container col-md-10">
-        <div class="section-title">
-          <div class="container col-md-9 text-center py-3">
-            <div class="mission-title text-uppercase mt-5">how to trust</div>
-            <h1 class="future-control-title">
-              Why We Are the Best Choice for Your Career Growth
+            <h1 class="mt-5">
+              Professional Diploma in <br />
+              Software Engineering
             </h1>
-          </div>
-        </div>
-        <div class="row py-3">
-          <div class="col-md-6 feature">
-            <h3>1. Industry-Focused Training</h3>
-            <p>
-              We offer courses designed to meet the demands of the modern tech
-              industry, ensuring our students are always a step ahead.
-            </p>
-          </div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature">
-            <h3>2. Monthly Assessments & Projects</h3>
-            <p>
-              Regular tests and evaluations help track progress and improve
-              performance, keeping students motivated and on track.
-            </p>
-          </div>
-          <div class="col-md-6 feature">
-            <h3>3. Comprehensive Internship Program</h3>
-            <p>
-              A 6-month internship provides real-world experience, making
-              students job-ready and confident.
-            </p>
-          </div>
-
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature"></div>
-
-          <div class="col-md-6 feature">
-            <h3>4. Placement Assistance</h3>
-            <p>
-              Our dedicated placement team offers resume-building guidance,
-              interview preparation, and direct job application support,
-              ensuring students successfully secure positions in top companies.
-            </p>
-          </div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature">
-            <h3>5. Peer Learning Environment</h3>
-            <p>
-              Learn collaboratively with fellow students in a dynamic and
-              interactive environment, fostering teamwork and problem-solving
-              skills.
-            </p>
-          </div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature">
-            <h3>6. Hands-On Experience</h3>
-            <p>
-              Practical training on the latest technologies, tools, and software
-              ensures our students gain real-world expertise.
-            </p>
-          </div>
-          <div class="col-md-6 feature"></div>
-
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature">
-            <h3>7. Experienced Trainers</h3>
-            <p>
-              Learn from industry experts with years of experience, passionate
-              about mentoring and guiding students.
-            </p>
-          </div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature"></div>
-          <div class="col-md-6 feature">
-            <h3>8. Affordable and Flexible Programs</h3>
-            <p>
-              Quality education at competitive prices with flexible timings for
-              working professionals and students alike.
-            </p>
+            <ul class="list-unstyled">
+              <li class="dimand_skill mb-3 py-3">
+                <strong>In-Demand Skills:</strong> Learn the most industry
+                relevant skills in the tech <br />
+                industry (App Development, PWA Development, Microservices and
+                UI/UX)
+              </li>
+              <li class="dimand_skill mb-3 py-2">
+                <strong>Personalise Mentorship:</strong> Learn from industry
+                professionals <br />
+                and personalise support from EduGaon mentors
+              </li>
+              <li>
+                <div class="d-flex timo">
+                  <div class="Eligibility">
+                    <span class="star-text">Duration</span><br />
+                    <h3><b>2 Years</b></h3>
+                  </div>
+                  <div class="Eligibility">
+                    <span class="star-text">Eligibility</span><br />
+                    <h3><b>Inter</b></h3>
+                  </div>
+                  <div class="Eligibility">
+                    <span class="star-text">Fess</span><br />
+                    <h3><b>70, 000</b></h3>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
 
-    <section>
-      <div class="container col-md-8 text-center py-3">
-        <h1 class="our-mentors-title">Our Mentors for Your Career Growth</h1>
+      <!-- Right Side Image -->
+      <div class="col-md-5">
+        <img src="images/1.jpg" class="img-fluiddetails img-fluid" alt="Flutter Developer Image" />
       </div>
-
-
-      <div class="py-5"></div>
-    </section>
-
-    <div class="container tech-stack-section">
-      <div class="d-flex align-items-center justify-content-center">
-          <div class="row g-14 col-md-10 our_mentor-section">
-              <!-- Card 1 -->
-              <div class="col-md-3 col-sm-6">
-                  <div class="our_mentor-item">
-                      <div class="img-container">
-                          <img src="images/mentors/vijay.jpeg" alt="Vijay_Sir" />
-                      </div>
-                      <h6>Vijay Kumar</h6>
-                      <p>Co-founder</p>
-                  </div>
-              </div>
-              <!-- Card 2 -->
-              <div class="col-md-3 col-sm-6">
-                  <div class="our_mentor-item">
-                      <div class="img-container">
-                          <img src="images/mentors/vijay.jpeg" alt="Rahul_Raj" />
-                      </div>
-                      <h6>Rahul Raj</h6>
-                      <p>Co-founder</p>
-                  </div>
-              </div>
-              <!-- Card 3 -->
-              <div class="col-md-3 col-sm-6">
-                  <div class="our_mentor-item">
-                      <div class="img-container">
-                          <img src="images/mentors/vijay.jpeg" alt="Sudish_Sir" />
-                      </div>
-                      <h6>Sudish Kumar</h6>
-                      <p>Center Head</p>
-                  </div>
-              </div>
-          </div>
-      </div>
+    </div>
   </div>
-  
 
-    <!-- Bootstrap JS scripts -->
-    <script src="script1.js"></script>
+  <section class="container mt-5 py-3 text-center">
+    <div class="container col-md-9 text-center">
+      <div class="mission-title text-uppercase">
+        focus on learning not on teaching
+      </div>
+      <h1 class="future-control-title">Learn with Real World Projects</h1>
+    </div>
+  </section>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <section class="container py-4">
+    <div class="row">
+      <div class="col-md-10 mx-auto">
+        <h2 class="fundamentals-title py-2">Fundamentals of Programming</h2>
+        <p class="fundamentals-details">
+          This course introduces the basics of programming, covering essential
+          concepts like variables, control structures, data types, functions,
+          and object-oriented programming. It lays the foundation for writing
+          efficient and error-free code.
+        </p>
+
+        <h5>Topics Covered</h5>
+        <ul class="topics-list">
+          <li class="topic-lists">Web Design and Development</li>
+          <li class="topic-lists">PHP & MySQL</li>
+          <li class="topic-lists">Android App</li>
+          <li class="topic-lists">Flutter App Development</li>
+          <li class="topic-lists">Web App Develop</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="container tech-stack-section">
+    <div class="container d-flex align-items-center justify-content-center">
+      <div class="row g-4 col-md-10">
+        <div class="col-md-6 col-sm-6">
+          <h1 class="tech-stack-title">Tech stack</h1>
+          <p class="tech-stack-description">
+            Discover career paths that truly resonate with your passion &
+            explore mentorship programs that align perfectly with you.
+          </p>
+        </div>
+        <!-- Card 5 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/flutter.png" alt="Flutter" />
+            <h6>Flutter</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 6 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/android.png" alt="Android" />
+            <h6>Android</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/next.jpg" alt="NextJS" />
+            <h6>NextJS</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/node.png" alt="NodeJS" />
+            <h6>NodeJS</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/firebase.png" alt="Firebase" />
+            <h6>Firebase</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/api.jpg" alt="API Developer" />
+            <h6>API Developer</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+
+        <!-- Card 7 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/javascript.png" alt="JavaScript" />
+            <h6>JavaScript</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 8 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/kotlin.jpg" alt="Kotlin" />
+            <h6>Kotlin</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 9 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/php.png" alt="PHP" />
+            <h6>PHP</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+        <!-- Card 10 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="tech-stack-item">
+            <img src="images/subIcon/dart.png" alt="Dart" />
+            <h6>Dart</h6>
+            <p>For mobile app development For mobile app</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="container mt-5 py-3">
+    <div class="container col-md-9">
+      <h1 class="future-control-title text-center">
+        Empowering Future Innovators with Cutting-Edge Software Education
+      </h1>
+      <p class="text-muted text-description">
+        At EduGaon, we are committed to shaping the next generation of tech
+        professionals through our industry-focused software <br />
+        training programs. <br /><br />
+        Our institute stands apart for its innovative approach, combining peer
+        learning methodologies, monthly assessments, and <br />
+        hands-on experience with the latest technologies. <br /><br />
+        We believe that practical exposure is the key to mastering software
+        skills. That’s why, after completing our rigorous 12 <br />
+        months training programs, students are provided with comprehensive
+        internships to apply their knowledge in real-world <br />
+        scenarios.
+      </p>
+    </div>
+  </section>
+  <section>
+    <div class="container details_container">
+      <div class="row">
+        <div class="col-md-6">
+          <img class="details_image" loading="lazy" src="images/homeImage/StudentsGroup1.jpeg" alt="image"
+            srcset="for details" />
+        </div>
+        <div class="col-md-6">
+          <img class="details_image" loading="lazy" src="images/homeImage/StudentsGroup2.jpeg" alt="image"
+            srcset="for details" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container col-md-9 mx-auto">
+      <div class="section-title">
+        <div class="container col-md-10 text-center py-3">
+          <div class="mission-title text-uppercase mt-5">how to trust</div>
+          <h1 class="future-control-title">
+            Why We Are the Best Choice for Your Career Growth
+          </h1>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-md-6 feature">
+          <h3>1. Industry-Focused Training</h3>
+          <p>
+            We offer courses designed to meet the demands of the modern <br />
+            tech industry, ensuring our students are always a step ahead.
+          </p>
+        </div>
+        <div class="col-md-6 feature">
+          <h3>2. Monthly Assessments & Projects</h3>
+          <p>
+            Regular tests and evaluations help track progress and improve
+            <br />
+            performance, keeping students motivated and on track.
+          </p>
+        </div>
+        <div class="col-md-6 feature">
+          <h3>3. Comprehensive Internship Program</h3>
+          <p>
+            A 6-month internship provides real-world experience, <br />
+            making students job-ready and confident.
+          </p>
+        </div>
+
+        <div class="col-md-6 feature">
+          <h3>4. Placement Assistance</h3>
+          <p>
+            Our dedicated placement team offers resume-building guidance,
+            <br />
+            interview preparation, and direct job application support,
+            ensuring <br />
+            students successfully secure positions in top companies.
+          </p>
+        </div>
+
+        <div class="col-md-6 feature">
+          <h3>5. Peer Learning Environment</h3>
+          <p>
+            Learn collaboratively with fellow students in a dynamic and <br />
+            interactive environment, fostering teamwork and problem-solving
+            <br />
+            skills.
+          </p>
+        </div>
+
+        <div class="col-md-6 feature">
+          <h3>6. Hands-On Experience</h3>
+          <p>
+            Practical training on the latest technologies, tools, and software
+            <br />
+            ensures our students gain real-world expertise.
+          </p>
+        </div>
+
+        <div class="col-md-6 feature">
+          <h3>7. Experienced Trainers</h3>
+          <p>
+            Learn from industry experts with years of experience, passionate
+            <br />
+            about mentoring and guiding students.
+          </p>
+        </div>
+
+        <div class="col-md-6 feature">
+          <h3>8. Affordable and Flexible Programs</h3>
+          <p>
+            Quality education at competitive prices with flexible timings for
+            <br />
+            working professionals and students alike.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container col-md-8 text-center">
+      <h1 class="our-mentors-title py-4">
+        Our Mentors for Your Career Growth
+      </h1>
+    </div>
+  </section>
+
+  <div class="container tech-stack-section py-4">
+    <div class="d-flex align-items-center justify-content-center">
+      <div class="row g-14 col-md-10 our_mentor-section">
+        <!-- Card 1 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="our_mentor-item">
+            <div class="img-container">
+              <img src="images/mentors/vijay.jpeg" alt="Vijay_Sir" />
+            </div>
+            <h6>Vijay Kumar</h6>
+            <p>Co-founder</p>
+          </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="our_mentor-item">
+            <div class="img-container">
+              <img src="images/mentors/RahulSir.jpeg" alt="Rahul_Raj" />
+            </div>
+            <h6>Rahul Raj</h6>
+            <p>Co-founder</p>
+          </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-md-3 col-sm-6">
+          <div class="our_mentor-item">
+            <div class="img-container">
+              <img src="images/mentors/sudishSir.jpeg" alt="Sudish_Sir" />
+            </div>
+            <h6>Sudish Kumar</h6>
+            <p>Center Head</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section>
+    <div class="container col-md-10">
+      <h3 class="my-4">Our Centers</h3>
+      <div class="row align-items-center center-card">
+        <div class="col-md-6">
+          <h2>EduGaon, Amnour</h2>
+          <h5>Established in 2019</h5>
+          <p>
+            Our journey began in 2019 with just 8 students, and today, we are
+            proud to support over 200 students. So far, we have transformed
+            the lives of more than 50 rural families, and we are on track to
+            positively impact the lives of an additional 100+ students in the
+            next six months.
+          </p>
+          <p>
+            This incredible growth reflects our unwavering commitment to
+            empowering rural communities through education and creating a
+            brighter future for the next generation.
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/homeImage/amnourStudentGroup.jpeg" alt="EduGaon Students" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="container col-md-10 py-3">
+      <div class="row align-items-center center-card">
+        <div class="col-md-6">
+          <h2>EduGaon, Patna</h2>
+          <h5>Established in 2023</h5>
+          <p>
+            We launched a hybrid center in Patna, utilizing the premises of a
+            local college to provide training and education to students in
+            urban areas.
+          </p>
+          <p>
+            This initiative allows us to extend our reach and support to urban
+            students.
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/homeImage/PatnaBatch.jpeg" alt="EduGaon Students" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container col-md-10 py-3">
+      <div class="row align-items-center center-card">
+        <div class="col-md-6">
+          <h2>EduGaon, Parsa</h2>
+          <h5>Established in 2024</h5>
+          <p>
+            Expanding EduGaon's reach to more rural students is a significant
+            milestone in our journey. Following the success of our first
+            center, we took a major step forward by launching a second center
+            in May 2024.
+          </p>
+          <p>
+            This new center strengthens our ability to impact the lives of
+            even more rural students, bringing us closer to our vision of
+            empowering underserved communities through quality education.
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/homeImage/parsaBatch.jpeg" alt="EduGaon Students" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+  <div class="py-4"></div>
+
+  <!-- Bootstrap JS scripts -->
+  <script src="script1.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

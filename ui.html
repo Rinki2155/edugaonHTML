@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Center Design</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .center-card {
+      border: 2px solid #f55;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+
+    .center-card h2 {
+      color: #f7931e;
+      font-weight: bold;
+    }
+
+    .center-card h5 {
+      color: #555;
+      font-weight: bold;
+    }
+
+    .center-card p {
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .center-card img {
+      border-radius: 10px;
+      max-width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+      .center-card {
+        padding: 15px;
+      }
+
+      .center-card h2 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="my-4">Our Centers</h1>
+    <div class="row align-items-center center-card">
+      <div class="col-md-6">
+        <h2>EduGaon, Amnour</h2>
+        <h5>Established in 2019</h5>
+        <p>
+          Our journey began in 2019 with just 8 students, and today, we are proud to support over 200 students. So far, we have transformed the lives of more than 50 rural families, and we are on track to positively impact the lives of an additional 100+ students in the next six months.
+        </p>
+        <p>
+          This incredible growth reflects our unwavering commitment to empowering rural communities through education and creating a brighter future for the next generation.
+        </p>
+      </div>
+      <div class="col-md-6 text-center">
+        <img src="images/homeImage/PatnaBatch.jpeg" alt="EduGaon Students" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
