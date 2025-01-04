@@ -1317,7 +1317,7 @@ h3 b {
 .details_container {
   width: 1140px;
 }
-.details_image {
+.details_image_page {
   max-width: 100%;
   height: auto;
 }
@@ -1413,7 +1413,7 @@ h3 b {
   .center-card h2 {
     font-size: 1.5rem;
   }
-  .details_image {
+  .details_image_page {
     max-width: 30%;
     height: auto;
     padding-top:1%;
