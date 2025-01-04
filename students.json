@@ -376,6 +376,15 @@
     "image": "images/thumb/Rohit.jpeg",
     "galleryImage": "images/gallery/Rohit.jpeg"
   } 
+  ,
+  {
+    "id": 48,
+    "name": "Saif Ali",
+    "company": "Eisner Crop Sciences Pvt Ltd,Hyderabad",
+    "linkedin": "https://www.linkedin.com/in/saif-%E2%80%8B-ali-1a9662324/",
+    "image": "images/thumb/saif.jpeg",
+    "galleryImage": "images/gallery/saif.jpeg"
+  } 
 
   
 ]

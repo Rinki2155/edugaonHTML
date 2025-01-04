@@ -1413,4 +1413,9 @@ h3 b {
   .center-card h2 {
     font-size: 1.5rem;
   }
+  .details_image {
+    max-width: 30%;
+    height: auto;
+    padding-top:1%;
+  }
 }
