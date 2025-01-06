@@ -384,7 +384,15 @@
     "linkedin": "https://www.linkedin.com/in/saif-%E2%80%8B-ali-1a9662324/",
     "image": "images/thumb/saif.jpeg",
     "galleryImage": "images/gallery/saif.jpeg"
-  } 
+  },
+  {
+    "id": 49,
+    "name": "Golu Alam",
+    "company": "BigWelt Infotech Pvt Ltd, Bangalore Karnataka ",
+    "linkedin": "https://www.linkedin.com/in/golu-alam/",
+    "image": "images/thumb/golu.jpeg",
+    "galleryImage": "images/gallery/golu.jpeg"
+  }  
 
   
 ]
