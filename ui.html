@@ -1,72 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive Center Design</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .center-card {
-      border: 2px solid #f55;
-      border-radius: 10px;
-      padding: 20px;
-      margin: 20px 0;
-    }
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Center Design</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+       body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
 
-    .center-card h2 {
-      color: #f7931e;
-      font-weight: bold;
-    }
+        .ui_certificational_course {
+            display: flex;
+            height: 100vh;
+            width: 100%;
+        }
 
-    .center-card h5 {
-      color: #555;
-      font-weight: bold;
-    }
+        .left-section {
+            background-color: #f4891c;
+            width: 45%;
+            padding: 40px;
+            /* color: white; */
+        }
 
-    .center-card p {
-      line-height: 1.6;
-      color: #444;
-    }
+        .left-section h1 {
+            font-size: 60px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
 
-    .center-card img {
-      border-radius: 10px;
-      max-width: 100%;
-      height: auto;
-    }
+        .module {
+            display: flex;
+            margin-bottom: 20px;
+        }
 
-    @media (max-width: 768px) {
-      .center-card {
-        padding: 15px;
-      }
+        .module-box {
+            background-color: white;
+            color: black;
+            width: 120px;
+            padding-top: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            text-align: center;
+            margin: 0 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .module-box_2 {
+            background-color: white;
+            color: black;
+            width: 265px;
+            padding-top: 20px;
+            border-radius: 5px;
+            justify-content: center;
+            text-align: center;
+            margin: 0 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .arrow {
+          margin-left: 160px;
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            clip-path: polygon(100% 50%, 0 0, 0 100%);
+        }
+        .arrows {
+          margin-right: -122px;
+            width: 90px;
+            height: 70px;
+            background-color: white;
+            /* clip-path: polygon(100% 50%, 0 0, 0 100%); */
+        }
 
-      .center-card h2 {
-        font-size: 1.5rem;
-      }
-    }
-  </style>
-</head>
-<body>
-  <div class="container">
-    <h1 class="my-4">Our Centers</h1>
-    <div class="row align-items-center center-card">
-      <div class="col-md-6">
-        <h2>EduGaon, Amnour</h2>
-        <h5>Established in 2019</h5>
-        <p>
-          Our journey began in 2019 with just 8 students, and today, we are proud to support over 200 students. So far, we have transformed the lives of more than 50 rural families, and we are on track to positively impact the lives of an additional 100+ students in the next six months.
-        </p>
-        <p>
-          This incredible growth reflects our unwavering commitment to empowering rural communities through education and creating a brighter future for the next generation.
-        </p>
-      </div>
-      <div class="col-md-6 text-center">
-        <img src="images/homeImage/PatnaBatch.jpeg" alt="EduGaon Students" />
+        .right-section {
+            background-color: white;
+            width: 40%;
+            padding: 40px;
+        }
+
+        .right-section h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .right-section p {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+
+        .cost {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: right;
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div style="display: flex">
+        <h1
+          style="
+            font-size: 70px;
+            font-weight: bold;
+            justify-content: center;
+            margin-top: 12%;
+          "
+        >
+          EduGaon - <br />
+          New course.
+        </h1>
+        <div class="logo" style="margin-left: 20%; height: 630px">
+          <img src="images/edugaon.jpg" alt="edugaon.jpg" />
+        </div>
       </div>
     </div>
+    <div class="ui_certificational_course container">
+      <div class="left-section">
+          <h1>Certificate in UI/UX Design</h1>
+          <div class="module">
+              <div class="module-box">
+                  <p>Photoshop <br>3 Weeks</p>
+              </div>
+              <div class="module-box">
+                  <p>Canva <br> 3 Weeks</p>
+              </div>
+          </div>
+          <div class="module">
+              <div class="module-box_2">
+                  <p>HTML, CSS and Bootstrap <br> 2 Weeks</p>
+              </div>
+              </div>
+              <div class="module">
+              <div class="module-box_2">
+                  <p>Project - Build your website <br>4 Weeks</p>
+              </div>
+              <div class="arrows"></div>
+
+              <div class="arrow"></div>
+
+          </div>
+      </div>
+      <div class="right-section">
+          <h3>3 Months</h3>
+          <p>6 hrs per day</p>
+          <p>2 Days in a week</p>
+          <p class="cost">Rs. 5,000</p>
+          <h3>Graphic and Website Designer</h3>
+      </div>
   </div>
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>

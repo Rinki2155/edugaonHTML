@@ -341,7 +341,7 @@ function generateVideoSlides() {
             ${testimonial.studentView}                       
             </h3>
             <div class="profile-video-desc mb-3">
-              <img
+              <img loading="lazy"
                 src="/images/icons/profile.jpeg"
                 alt="profile"
                 class="profile-icon me-2"
@@ -352,15 +352,15 @@ function generateVideoSlides() {
               </div>
             </div>
             <div class="d-flex justify-content-start">
-              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
-              <img src="/images/icons/star.jpeg" alt="star" class="star-icon" />
+              <img loading="lazy" src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img loading="lazy" src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img loading="lazy" src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img loading="lazy" src="/images/icons/star.jpeg" alt="star" class="star-icon me-1" />
+              <img loading="lazy" src="/images/icons/star.jpeg" alt="star" class="star-icon" />
             </div>
             <div class="py-1">
               <a target="_blank" href="${testimonial.videoURL}">
-                <img
+                <img loading="lazy"
                   src="/images/icons/youtube.avif"
                   alt="youtube"
                   class="me-1"
@@ -368,7 +368,7 @@ function generateVideoSlides() {
                 />
               </a>
               <a target="_blank" href=${testimonial.linkdinId}>
-                <img
+                <img loading="lazy"
                   src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
                   alt="LinkedIn"
                   class="icon"

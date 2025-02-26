@@ -503,14 +503,14 @@ p {
     display: none;
   }
   .carousel-item:nth-child(1) .carousel-section {
-    background-image: url("images/slider/1.jpeg");
+    background-image: url("images/slider/2025.jpg");
   }
   .carousel-item:nth-child(2) .carousel-section {
     background-image: url("images/slider/3.jpeg");
   }
 
   .carousel-item:nth-child(3) .carousel-section {
-    background-image: url("images/slider/4.jpeg");
+    background-image: url("images/slider/2.jpeg");
   }
 
   .carousel-item:nth-child(4) .carousel-section {
