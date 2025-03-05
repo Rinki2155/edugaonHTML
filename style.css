@@ -126,7 +126,7 @@ body {
 .highlight {
   color: #ff9900;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   padding-top: 5px;
 }
@@ -506,19 +506,19 @@ p {
     background-image: url("images/slider/2025.jpg");
   }
   .carousel-item:nth-child(2) .carousel-section {
-    background-image: url("images/slider/3.jpeg");
+    background-image: url("images/slider/2.jpg");
   }
 
   .carousel-item:nth-child(3) .carousel-section {
-    background-image: url("images/slider/2.jpeg");
+    background-image: url("images/slider/3.jpg");
   }
 
   .carousel-item:nth-child(4) .carousel-section {
-    background-image: url("images/slider/1.jpeg");
+    background-image: url("images/slider/1.jpg");
   }
 
   .carousel-item:nth-child(5) .carousel-section {
-    background-image: url("images/slider/2.jpeg");
+    background-image: url("images/slider/4.jpg");
   }
   .carousel-title {
     color: white;
