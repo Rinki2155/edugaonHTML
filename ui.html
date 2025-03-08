@@ -1,161 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Responsive Center Design</title>
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="style.css" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Skills Hiring</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
-       body {
-            margin: 0;
+        body {
             font-family: Arial, sans-serif;
         }
-
-        .ui_certificational_course {
-            display: flex;
-            height: 100vh;
-            width: 100%;
+        .tech-skills-section {
+            text-align: center;
+            padding: 50px 20px;
         }
-
-        .left-section {
-            background-color: #f4891c;
-            width: 45%;
-            padding: 40px;
-            /* color: white; */
+        .card {
+            padding: 20px;
+            border-radius: 10px;
+            background: #f8f9fa;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        .left-section h1 {
-            font-size: 60px;
-            margin-bottom: 20px;
+        .card-header {
+            background: linear-gradient(to right, #ff5733, #ff784f);
+            color: white;
             font-weight: bold;
-        }
-
-        .module {
-            display: flex;
-            margin-bottom: 20px;
-        }
-
-        .module-box {
-            background-color: white;
-            color: black;
-            width: 120px;
-            padding-top: 20px;
-            border-radius: 5px;
-            justify-content: center;
-            text-align: center;
-            margin: 0 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .module-box_2 {
-            background-color: white;
-            color: black;
-            width: 265px;
-            padding-top: 20px;
-            border-radius: 5px;
-            justify-content: center;
-            text-align: center;
-            margin: 0 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        .arrow {
-          margin-left: 160px;
-            width: 70px;
-            height: 70px;
-            background-color: white;
-            clip-path: polygon(100% 50%, 0 0, 0 100%);
-        }
-        .arrows {
-          margin-right: -122px;
-            width: 90px;
-            height: 70px;
-            background-color: white;
-            /* clip-path: polygon(100% 50%, 0 0, 0 100%); */
-        }
-
-        .right-section {
-            background-color: white;
-            width: 40%;
-            padding: 40px;
-        }
-
-        .right-section h3 {
-            font-size: 24px;
-            margin-bottom: 10px;
-        }
-
-        .right-section p {
-            margin: 5px 0;
             font-size: 18px;
+            padding: 15px;
+            border-radius: 8px 8px 0 0;
         }
-
-        .cost {
-            font-size: 36px;
-            font-weight: bold;
-            text-align: right;
+        .tech-icons img {
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+        .gap-between {
+            gap: 30px;
         }
     </style>
-  </head>
-
-  <body>
-    <div class="container">
-      <div style="display: flex">
-        <h1
-          style="
-            font-size: 70px;
-            font-weight: bold;
-            justify-content: center;
-            margin-top: 12%;
-          "
-        >
-          EduGaon - <br />
-          New course.
-        </h1>
-        <div class="logo" style="margin-left: 20%; height: 630px">
-          <img src="images/edugaon.jpg" alt="edugaon.jpg" />
+</head>
+<body>
+    <div class="container tech-skills-section">
+        <h3><strong>Available to hire in below tech skills</strong></h3>
+        <div class="row mt-4 justify-content-center gap-between">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header">Flutter Interns / Developer</div>
+                    <div class="tech-icons d-flex flex-wrap justify-content-center">
+                        <img src="https://via.placeholder.com/50" alt="Kotlin">
+                        <img src="https://via.placeholder.com/50" alt="Android">
+                        <img src="https://via.placeholder.com/50" alt="Dart">
+                        <img src="https://via.placeholder.com/50" alt="Flutter">
+                        <img src="https://via.placeholder.com/50" alt="Firebase">
+                        <img src="https://via.placeholder.com/50" alt="HTML">
+                        <img src="https://via.placeholder.com/50" alt="JavaScript">
+                        <img src="https://via.placeholder.com/50" alt="CSS">
+                        <img src="https://via.placeholder.com/50" alt="Bootstrap">
+                        <img src="https://via.placeholder.com/50" alt="GitHub">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-header">Laravel Interns / Developer</div>
+                    <div class="tech-icons d-flex flex-wrap justify-content-center">
+                        <img src="https://via.placeholder.com/50" alt="PHP">
+                        <img src="https://via.placeholder.com/50" alt="MySQL">
+                        <img src="https://via.placeholder.com/50" alt="XAMPP">
+                        <img src="https://via.placeholder.com/50" alt="Laravel">
+                        <img src="https://via.placeholder.com/50" alt="API">
+                        <img src="https://via.placeholder.com/50" alt="HTML">
+                        <img src="https://via.placeholder.com/50" alt="JavaScript">
+                        <img src="https://via.placeholder.com/50" alt="CSS">
+                        <img src="https://via.placeholder.com/50" alt="Bootstrap">
+                        <img src="https://via.placeholder.com/50" alt="GitHub">
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="ui_certificational_course container">
-      <div class="left-section">
-          <h1>Certificate in UI/UX Design</h1>
-          <div class="module">
-              <div class="module-box">
-                  <p>Photoshop <br>3 Weeks</p>
-              </div>
-              <div class="module-box">
-                  <p>Canva <br> 3 Weeks</p>
-              </div>
-          </div>
-          <div class="module">
-              <div class="module-box_2">
-                  <p>HTML, CSS and Bootstrap <br> 2 Weeks</p>
-              </div>
-              </div>
-              <div class="module">
-              <div class="module-box_2">
-                  <p>Project - Build your website <br>4 Weeks</p>
-              </div>
-              <div class="arrows"></div>
-
-              <div class="arrow"></div>
-
-          </div>
-      </div>
-      <div class="right-section">
-          <h3>3 Months</h3>
-          <p>6 hrs per day</p>
-          <p>2 Days in a week</p>
-          <p class="cost">Rs. 5,000</p>
-          <h3>Graphic and Website Designer</h3>
-      </div>
-  </div>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
